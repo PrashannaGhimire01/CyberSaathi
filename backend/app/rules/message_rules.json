@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": {
     "urgency": {
       "weight": 20,
@@ -8,8 +8,14 @@
     },
     "credential_request": {
       "weight": 35,
-      "reason_en": "It asks for your OTP, password or PIN",
-      "keywords": ["otp", "password", "pin", "cvv", "verify your account", "verify garnuhos", "पासवर्ड", "ओटीपी"]
+      "reason_en": "It asks you to send your OTP, password or PIN",
+      "keywords": ["otp", "password", "pin", "cvv", "code", "पासवर्ड", "ओटीपी"],
+      "request_words": ["send", "share", "enter", "reply", "give", "pathaunuhos", "pathaunu", "dinuhos", "पठाउनुहोस्", "दिनुहोस्"]
+    },
+    "verification_request": {
+      "weight": 25,
+      "reason_en": "It asks you to verify or update your account",
+      "keywords": ["verify your account", "verify garnuhos", "update your kyc", "kyc update", "kyc garnuhos"]
     },
     "threat": {
       "weight": 20,
@@ -20,6 +26,11 @@
       "weight": 25,
       "reason_en": "It promises a prize or free money",
       "keywords": ["congratulations", "winner", "prize", "lottery", "inaam", "jitnubhayo", "badhai", "बधाई", "इनाम"]
+    },
+    "safety_advice": {
+      "weight": 0,
+      "reason_en": "It tells you not to share your code, like genuine service messages do",
+      "keywords": ["do not share", "don't share", "never share", "kasailai nadinuhos", "share nagarnuhos", "कसैलाई नदिनुहोस्"]
     }
   },
   "link": {

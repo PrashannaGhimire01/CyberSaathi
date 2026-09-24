@@ -18,6 +18,9 @@ def analyze_message(text):
     signals = []
     for name, category in RULES["categories"].items():
         matched = [k for k in category["keywords"] if keyword_found(k, lowered)]
+        if matched and "request_words" in category:
+            requests = [w for w in category["request_words"] if keyword_found(w, lowered)]
+            matched = matched + requests if requests else []
         if matched:
             signals.append({"signal": name, "weight": category["weight"],
                             "reason": category["reason_en"], "matched": matched})

@@ -1,5 +1,13 @@
+SAFETY_DISCOUNT = 30
+DISCOUNTABLE = {"credential_request", "safety_advice"}
+
 def calculate_risk(signals):
-    score = min(sum(s["weight"] for s in signals), 100)
+    names = {s["signal"] for s in signals}
+    score = sum(s["weight"] for s in signals)
+    other_warnings = names - DISCOUNTABLE
+    if "safety_advice" in names and not other_warnings:
+        score -= SAFETY_DISCOUNT
+    score = max(0, min(score, 100))
     if score >= 60:
         level = "HIGH"
     elif score >= 30:
@@ -7,4 +15,5 @@ def calculate_risk(signals):
     else:
         level = "LOW"
     return score, level
-    
+
+
