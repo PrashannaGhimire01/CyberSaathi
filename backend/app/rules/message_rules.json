@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "categories": {
+    "urgency": {
+      "weight": 20,
+      "reason_en": "It pressures you to act quickly",
+      "keywords": ["urgent", "immediately", "within 24 hours", "act now", "turuntai", "chhito", "aajai", "तुरुन्तै", "छिटो"]
+    },
+    "credential_request": {
+      "weight": 35,
+      "reason_en": "It asks for your OTP, password or PIN",
+      "keywords": ["otp", "password", "pin", "cvv", "verify your account", "verify garnuhos", "पासवर्ड", "ओटीपी"]
+    },
+    "threat": {
+      "weight": 20,
+      "reason_en": "It threatens to block or close your account",
+      "keywords": ["block", "blocked", "suspend", "suspended", "banda", "band hunecha", "बन्द"]
+    },
+    "prize": {
+      "weight": 25,
+      "reason_en": "It promises a prize or free money",
+      "keywords": ["congratulations", "winner", "prize", "lottery", "inaam", "jitnubhayo", "badhai", "बधाई", "इनाम"]
+    }
+  },
+  "link": {
+    "weight": 20,
+    "reason_en": "It contains a link"
+  }
+}
