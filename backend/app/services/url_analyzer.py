@@ -32,7 +32,9 @@ def analyze_url(raw_url):
         host = parsed.hostname or ""
     except ValueError:
         return [make_signal("malformed", [raw_url])]
-
+    if not host or any(ch.isspace() for ch in url):
+        return [make_signal("malformed", [raw_url])]
+       
     signals = []
     if url.lower().startswith("http://"):
         signals.append(make_signal("no_https", [url]))

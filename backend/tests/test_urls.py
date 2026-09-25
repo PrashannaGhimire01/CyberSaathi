@@ -11,7 +11,7 @@ URL_CASES = [
     ("http://esewa.com.np@login-check.xyz", "HIGH"),
     ("https://bit.ly/3xYz", "LOW"),
     ("http://[broken", "MEDIUM"),
-    ("Naya offer! Visit https://esewa.com.np", "LOW"),
+    ("this is not a link", "MEDIUM"),
 ]
 
 @pytest.mark.parametrize("url, expected", URL_CASES)

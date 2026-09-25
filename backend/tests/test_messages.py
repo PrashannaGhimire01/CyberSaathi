@@ -10,6 +10,7 @@ CASES = [
     ("Tapai ko account block hunecha. Turuntai verify garnuhos: http://esewa-verify.xyz", "HIGH"),
     ("Badhai cha! Lottery jitnubhayo. OTP pathaunuhos. Do not share with anyone.", "HIGH"),
     ("I am going shopping, see you at 5", "LOW"),
+    ("Naya offer! Visit https://esewa.com.np", "LOW"),
 ]
 
 @pytest.mark.parametrize("message, expected", CASES)
