@@ -9,10 +9,12 @@ TRAILING_JUNK = ".,!?;:)\"'"
 with open(RULES_PATH, encoding="utf-8") as f:
     RULES = json.load(f)
 
-def make_signal(name, matched, reason=None):
+def make_signal(name, matched, brand=None):
     rule = RULES[name]
-    return {"signal": name, "weight": rule["weight"],
-            "reason": reason or rule["reason_en"], "matched": matched}
+    reasons = {"en": rule["reason_en"], "ne": rule["reason_ne"]}
+    if brand:
+        reasons = {lang: text.format(brand=brand) for lang, text in reasons.items()}
+    return {"signal": name, "weight": rule["weight"], "reasons": reasons, "matched": matched}
 
 def is_ip_address(host):
     try:
@@ -53,6 +55,5 @@ def analyze_url(raw_url):
     brand_rule = RULES["brand_impersonation"]
     for brand, official in brand_rule["values"].items():
         if brand in host and not is_official(host, official):
-            reason = brand_rule["reason_en"].format(brand=brand)
-            signals.append(make_signal("brand_impersonation", [host], reason))
+            signals.append(make_signal("brand_impersonation", [host], brand=brand))
     return signals

@@ -23,9 +23,9 @@ def analyze_message(text):
             matched = matched + requests if requests else []
         if matched:
             signals.append({"signal": name, "weight": category["weight"],
-                            "reason": category["reason_en"], "matched": matched})
+                            "reasons": {"en": category["reason_en"], "ne": category["reason_ne"]}, "matched": matched})
     urls = URL_PATTERN.findall(text)
     if urls:
         signals.append({"signal": "contains_link", "weight": RULES["link"]["weight"],
-                        "reason": RULES["link"]["reason_en"], "matched": urls})
+                        "reasons": {"en": RULES["link"]["reason_en"], "ne": RULES["link"]["reason_ne"]}, "matched": urls})
     return signals

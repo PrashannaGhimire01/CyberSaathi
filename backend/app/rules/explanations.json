@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "headlines": {
+    "HIGH": {
+      "en": "This looks like a scam. Be very careful.",
+      "ne": "यो ठगी जस्तो देखिन्छ। धेरै सावधान रहनुहोस्।"
+    },
+    "MEDIUM": {
+      "en": "This has some warning signs. Check carefully before you act.",
+      "ne": "यसमा केही चेतावनीका संकेतहरू छन्। केही गर्नुअघि राम्ररी जाँच्नुहोस्।"
+    },
+    "LOW": {
+      "en": "No major warning signs were found.",
+      "ne": "कुनै ठूलो चेतावनीको संकेत भेटिएन।"
+    }
+  },
+  "actions": {
+    "HIGH": {
+      "en": [
+        "Do not click the link.",
+        "Never share your OTP, password or PIN with anyone.",
+        "If it claims to be from your bank or wallet, contact them through their official number or app, not the details in this message.",
+        "Delete the message or report it."
+      ],
+      "ne": [
+        "लिङ्कमा क्लिक नगर्नुहोस्।",
+        "आफ्नो OTP, पासवर्ड वा PIN कसैलाई पनि नदिनुहोस्।",
+        "यो बैंक वा वालेटबाट आएको भनिएको छ भने, यो सन्देशमा दिइएको विवरणबाट होइन, उनीहरूको आधिकारिक नम्बर वा एपबाट सम्पर्क गर्नुहोस्।",
+        "सन्देश मेटाउनुहोस् वा रिपोर्ट गर्नुहोस्।"
+      ]
+    },
+    "MEDIUM": {
+      "en": [
+        "Don't click the link until you are sure who sent it.",
+        "Don't share personal or financial details.",
+        "If unsure, ask someone you trust or contact the organization directly."
+      ],
+      "ne": [
+        "पठाउने को हो भन्ने पक्का नभएसम्म लिङ्कमा क्लिक नगर्नुहोस्।",
+        "व्यक्तिगत वा आर्थिक विवरण नदिनुहोस्।",
+        "शंका लागेमा, आफूले विश्वास गर्ने व्यक्तिलाई सोध्नुहोस् वा सम्बन्धित संस्थामा सिधै सम्पर्क गर्नुहोस्।"
+      ]
+    },
+    "LOW": {
+      "en": ["Stay alert: never share your OTP or password, even if a message looks normal."],
+      "ne": ["सधैं सजग रहनुहोस्: सन्देश सामान्य देखिए पनि आफ्नो OTP वा पासवर्ड कसैलाई नदिनुहोस्।"]
+    }
+  },
+  "disclaimer": {
+    "en": "CyberSaathi checks for common warning signs but can make mistakes. When in doubt, don't click.",
+    "ne": "साइबरसाथीले सामान्य चेतावनीका संकेतहरू जाँच्छ, तर गल्ती पनि हुन सक्छ। शंका लागेमा क्लिक नगर्नुहोस्।"
+  }
+}

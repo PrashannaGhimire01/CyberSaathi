@@ -1,40 +1,47 @@
 {
-  "version": 2,
+  "version": 3,
   "categories": {
     "urgency": {
       "weight": 20,
       "reason_en": "It pressures you to act quickly",
+      "reason_ne": "यसले तपाईंलाई छिटो काम गर्न दबाब दिन्छ",
       "keywords": ["urgent", "immediately", "within 24 hours", "act now", "turuntai", "chhito", "aajai", "तुरुन्तै", "छिटो"]
     },
     "credential_request": {
       "weight": 35,
       "reason_en": "It asks you to send your OTP, password or PIN",
+      "reason_ne": "यसले तपाईंको OTP, पासवर्ड वा PIN पठाउन भन्छ",
       "keywords": ["otp", "password", "pin", "cvv", "code", "पासवर्ड", "ओटीपी"],
       "request_words": ["send", "share", "enter", "reply", "give", "pathaunuhos", "pathaunu", "dinuhos", "पठाउनुहोस्", "दिनुहोस्"]
     },
     "verification_request": {
       "weight": 25,
       "reason_en": "It asks you to verify or update your account",
+      "reason_ne": "यसले तपाईंको खाता प्रमाणित वा अपडेट गर्न भन्छ",
       "keywords": ["verify your account", "verify garnuhos", "update your kyc", "kyc update", "kyc garnuhos"]
     },
     "threat": {
       "weight": 20,
       "reason_en": "It threatens to block or close your account",
+      "reason_ne": "यसले तपाईंको खाता बन्द वा ब्लक गर्ने धम्की दिन्छ",
       "keywords": ["block", "blocked", "suspend", "suspended", "banda", "band hunecha", "बन्द"]
     },
     "prize": {
       "weight": 25,
       "reason_en": "It promises a prize or free money",
+      "reason_ne": "यसले इनाम वा सित्तैमा पैसा दिने वाचा गर्छ",
       "keywords": ["congratulations", "winner", "prize", "lottery", "inaam", "jitnubhayo", "badhai", "बधाई", "इनाम"]
     },
     "safety_advice": {
       "weight": 0,
       "reason_en": "It tells you not to share your code, like genuine service messages do",
+      "reason_ne": "यसले तपाईंको कोड कसैलाई नदिन भन्छ, जसरी साँचो सेवाका सन्देशहरूले भन्छन्",
       "keywords": ["do not share", "don't share", "never share", "kasailai nadinuhos", "share nagarnuhos", "कसैलाई नदिनुहोस्"]
     }
   },
   "link": {
     "weight": 20,
-    "reason_en": "It contains a link"
+    "reason_en": "It contains a link",
+    "reason_ne": "यसमा एउटा लिङ्क छ"
   }
 }

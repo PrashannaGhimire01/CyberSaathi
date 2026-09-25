@@ -1,27 +1,34 @@
 {
-  "version": 1,
-  "no_https": {"weight": 5, "reason_en": "The link does not use a secure connection (HTTPS)"},
-  "at_symbol": {"weight": 40, "reason_en": "The link uses a trick to hide where it really goes"},
-  "ip_address": {"weight": 25, "reason_en": "The link uses a number address instead of a website name"},
-  "punycode": {"weight": 25, "reason_en": "The link may use lookalike letters to copy a real website name"},
-  "malformed": {"weight": 30, "reason_en": "The link is broken or unusually formatted"},
-  "suspicious_tld": {
-    "weight": 15,
+  "version": 2,
+  "no_https": {"weight": 5,
+    "reason_en": "The link does not use a secure connection (HTTPS)",
+    "reason_ne": "यो लिङ्कले सुरक्षित जडान (HTTPS) प्रयोग गर्दैन"},
+  "at_symbol": {"weight": 40,
+    "reason_en": "The link uses a trick to hide where it really goes",
+    "reason_ne": "यो लिङ्कले साँच्चै कहाँ लैजान्छ भन्ने कुरा लुकाउन चलाकी गरेको छ"},
+  "ip_address": {"weight": 25,
+    "reason_en": "The link uses a number address instead of a website name",
+    "reason_ne": "यो लिङ्कमा वेबसाइटको नामको सट्टा नम्बरको ठेगाना छ"},
+  "punycode": {"weight": 25,
+    "reason_en": "The link may use lookalike letters to copy a real website name",
+    "reason_ne": "यो लिङ्कले साँचो वेबसाइटको नाम नक्कल गर्न उस्तै देखिने अक्षर प्रयोग गरेको हुन सक्छ"},
+  "malformed": {"weight": 30,
+    "reason_en": "The link is broken or unusually formatted",
+    "reason_ne": "यो लिङ्क बिग्रिएको वा असामान्य ढाँचामा छ"},
+  "suspicious_tld": {"weight": 15,
     "reason_en": "The website ending is often used by scam sites",
-    "values": ["xyz", "top", "click", "tk", "ml", "ga", "cf", "gq", "buzz", "icu", "live", "rest"]
-  },
-  "shortener": {
-    "weight": 15,
+    "reason_ne": "यस्तो अन्त्य भएका वेबसाइटहरू प्रायः ठगीका लागि प्रयोग हुन्छन्",
+    "values": ["xyz", "top", "click", "tk", "ml", "ga", "cf", "gq", "buzz", "icu", "live", "rest"]},
+  "shortener": {"weight": 15,
     "reason_en": "The link is shortened, which hides where it really goes",
-    "values": ["bit.ly", "tinyurl.com", "t.ly", "is.gd", "cutt.ly", "rb.gy", "shorturl.at"]
-  },
-  "brand_impersonation": {
-    "weight": 60,
+    "reason_ne": "यो लिङ्क छोटो पारिएको छ, जसले यो साँच्चै कहाँ जान्छ भन्ने लुकाउँछ",
+    "values": ["bit.ly", "tinyurl.com", "t.ly", "is.gd", "cutt.ly", "rb.gy", "shorturl.at"]},
+  "brand_impersonation": {"weight": 60,
     "reason_en": "The link uses the name '{brand}' but is not the official {brand} website",
+    "reason_ne": "यो लिङ्कमा '{brand}' को नाम छ, तर यो {brand} को आधिकारिक वेबसाइट होइन",
     "values": {
       "esewa": ["esewa.com.np"],
       "khalti": ["khalti.com"],
       "nabil": ["nabilbank.com"]
-    }
-  }
+    }}
 }
