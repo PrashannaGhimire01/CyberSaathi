@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "steps": {
+    "stay_calm": {
+      "en": "Stay calm. Acting quickly now can limit the damage.",
+      "ne": "नआत्तिनुहोस्। अहिले छिटो कदम चाल्नाले हानि कम गर्न सकिन्छ।"
+    },
+    "stop_contact": {
+      "en": "Stop replying to the scammer and don't send anything more.",
+      "ne": "ठगलाई जवाफ दिन बन्द गर्नुहोस् र अरू केही नपठाउनुहोस्।"
+    },
+    "contact_provider": {
+      "en": "Immediately call your bank or wallet (eSewa, Khalti, etc.) using the number in their official app or website, and ask them to block your account or transactions.",
+      "ne": "तुरुन्तै आफ्नो बैंक वा वालेट (eSewa, Khalti आदि) लाई उनीहरूको आधिकारिक एप वा वेबसाइटमा भएको नम्बरबाट फोन गर्नुहोस्, र खाता वा कारोबार रोक्न अनुरोध गर्नुहोस्।"
+    },
+    "check_transactions": {
+      "en": "Check your recent transactions and tell your bank about any you don't recognize.",
+      "ne": "हालैका कारोबारहरू जाँच्नुहोस्, र आफूले नचिनेको कारोबार भए बैंकलाई जानकारी दिनुहोस्।"
+    },
+    "block_card": {
+      "en": "Call your bank right away and ask them to block your card.",
+      "ne": "तुरुन्तै बैंकमा फोन गरेर आफ्नो कार्ड ब्लक गर्न भन्नुहोस्।"
+    },
+    "disconnect": {
+      "en": "Turn off mobile data and Wi-Fi on this phone for now.",
+      "ne": "अहिलेलाई यो फोनको मोबाइल डाटा र Wi-Fi बन्द गर्नुहोस्।"
+    },
+    "uninstall_app": {
+      "en": "Uninstall the app the scammer asked you to install, especially screen-sharing or remote-control apps.",
+      "ne": "ठगले इन्स्टल गर्न लगाएको एप हटाउनुहोस्, विशेषगरी स्क्रिन सेयर वा रिमोट कन्ट्रोल गर्ने एप।"
+    },
+    "use_other_device": {
+      "en": "Use a different, trusted phone or computer to change your passwords and contact your bank.",
+      "ne": "पासवर्ड परिवर्तन गर्न र बैंकसँग सम्पर्क गर्न अर्को भरपर्दो फोन वा कम्प्युटर प्रयोग गर्नुहोस्।"
+    },
+    "change_password": {
+      "en": "Change your password right away through the official app or website. If you used the same password anywhere else, change it there too.",
+      "ne": "आधिकारिक एप वा वेबसाइटबाट तुरुन्तै पासवर्ड परिवर्तन गर्नुहोस्। उही पासवर्ड अरू ठाउँमा पनि प्रयोग गर्नुभएको छ भने त्यहाँ पनि परिवर्तन गर्नुहोस्।"
+    },
+    "logout_devices": {
+      "en": "If the app allows it, log out of all other devices.",
+      "ne": "एपमा सुविधा छ भने, अरू सबै डिभाइसबाट लग आउट गर्नुहोस्।"
+    },
+    "enable_2fa": {
+      "en": "Turn on two-step verification (2FA) so a password alone isn't enough to get in.",
+      "ne": "दुई-चरण प्रमाणीकरण (2FA) सक्रिय गर्नुहोस्, ताकि पासवर्ड मात्रले कसैले खाता खोल्न नसकोस्।"
+    },
+    "watch_followups": {
+      "en": "Be extra careful with calls or messages that follow, even if they claim to be from the police, a bank or the government.",
+      "ne": "यसपछि आउने फोन वा सन्देशहरूमा विशेष सावधान रहनुहोस्, प्रहरी, बैंक वा सरकारबाट भनिए पनि।"
+    },
+    "save_evidence": {
+      "en": "Save evidence: take screenshots of the messages, the sender's number, links and transaction IDs. Don't delete them yet.",
+      "ne": "प्रमाण सुरक्षित राख्नुहोस्: सन्देश, पठाउनेको नम्बर, लिङ्क र कारोबार नम्बरको स्क्रिनसट लिनुहोस्। अहिले नमेटाउनुहोस्।"
+    },
+    "report_police": {
+      "en": "Report the incident to the Nepal Police Cyber Bureau. In an emergency, call 100.",
+      "ne": "यो घटनाबारे नेपाल प्रहरी साइबर ब्युरोमा उजुरी गर्नुहोस्। आपतकालीन अवस्थामा १०० मा फोन गर्नुहोस्।"
+    },
+    "not_your_fault": {
+      "en": "Being tricked is not your fault. Scammers are skilled at fooling people. Tell someone you trust so you're not handling this alone.",
+      "ne": "ठगिनु तपाईंको दोष होइन। ठगहरू मानिसलाई झुक्याउन सिपालु हुन्छन्। एक्लै नबस्नुहोस्, विश्वास गर्ने कसैलाई भन्नुहोस्।"
+    }
+  },
+  "plan": {
+    "first": ["stay_calm", "stop_contact"],
+    "priority": ["money", "card", "otp", "app_installed", "password", "personal_info"],
+    "money": ["contact_provider", "check_transactions"],
+    "card": ["block_card", "contact_provider"],
+    "otp": ["contact_provider", "check_transactions"],
+    "app_installed": ["disconnect", "uninstall_app", "use_other_device", "change_password"],
+    "password": ["change_password", "logout_devices", "enable_2fa"],
+    "personal_info": ["watch_followups"],
+    "last": ["save_evidence", "report_police", "not_your_fault"]
+  }
+}

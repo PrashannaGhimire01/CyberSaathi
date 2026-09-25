@@ -5,9 +5,12 @@ from app.services.message_analyzer import analyze_message, URL_PATTERN
 from app.services.url_analyzer import analyze_url
 from app.services.risk_engine import calculate_risk
 from app.services.explanation import build_explanation
+from app.services.emergency import build_emergency_plan
 
 MAX_URLS = 5
 Language = Literal["en", "ne"]
+Shared = Literal["otp", "password", "card", "money", "app_installed", "personal_info"]
+
 
 app = FastAPI(title="CyberSaathi")
 
@@ -17,6 +20,10 @@ class MessageIn(BaseModel):
 
 class UrlIn(BaseModel):
     url: str = Field(min_length=1, max_length=2048)
+    language: Language = "en"
+
+class EmergencyIn(BaseModel):
+    shared: list[Shared] = Field(default_factory=list, max_length=6)
     language: Language = "en"
 
 def build_response(signals, language):
@@ -39,3 +46,7 @@ def check_message(data: MessageIn):
 @app.post("/analyze/url")
 def check_url(data: UrlIn):
     return build_response(analyze_url(data.url), data.language)
+    
+@app.post("/emergency")
+def emergency(data: EmergencyIn):
+    return {"steps": build_emergency_plan(set(data.shared), data.language)}
