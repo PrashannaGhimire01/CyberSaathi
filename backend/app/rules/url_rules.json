@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "no_https": {"weight": 5, "reason_en": "The link does not use a secure connection (HTTPS)"},
+  "at_symbol": {"weight": 40, "reason_en": "The link uses a trick to hide where it really goes"},
+  "ip_address": {"weight": 25, "reason_en": "The link uses a number address instead of a website name"},
+  "punycode": {"weight": 25, "reason_en": "The link may use lookalike letters to copy a real website name"},
+  "malformed": {"weight": 30, "reason_en": "The link is broken or unusually formatted"},
+  "suspicious_tld": {
+    "weight": 15,
+    "reason_en": "The website ending is often used by scam sites",
+    "values": ["xyz", "top", "click", "tk", "ml", "ga", "cf", "gq", "buzz", "icu", "live", "rest"]
+  },
+  "shortener": {
+    "weight": 15,
+    "reason_en": "The link is shortened, which hides where it really goes",
+    "values": ["bit.ly", "tinyurl.com", "t.ly", "is.gd", "cutt.ly", "rb.gy", "shorturl.at"]
+  },
+  "brand_impersonation": {
+    "weight": 60,
+    "reason_en": "The link uses the name '{brand}' but is not the official {brand} website",
+    "values": {
+      "esewa": ["esewa.com.np"],
+      "khalti": ["khalti.com"],
+      "nabil": ["nabilbank.com"]
+    }
+  }
+}

@@ -1,15 +1,35 @@
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
-from app.services.message_analyzer import analyze_message
+from app.services.message_analyzer import analyze_message, URL_PATTERN
+from app.services.url_analyzer import analyze_url
 from app.services.risk_engine import calculate_risk
+
+MAX_URLS = 5
 
 app = FastAPI(title="CyberSaathi")
 
 class MessageIn(BaseModel):
     message: str = Field(min_length=1, max_length=5000)
 
+class UrlIn(BaseModel):
+    url: str = Field(min_length=1, max_length=2048)
+
+def build_response(signals):
+    score, level = calculate_risk(signals)
+    reasons = list(dict.fromkeys(s["reason"] for s in signals))
+    return {"risk": level, "score": score, "reasons": reasons, "signals": signals}
+
+@app.get("/")
+def home():
+    return {"service": "CyberSaathi", "status": "running"}
+
 @app.post("/analyze/message")
 def check_message(data: MessageIn):
     signals = analyze_message(data.message)
-    score, level = calculate_risk(signals)
-    return {"risk": level, "score": score, "reasons": [s["reason"] for s in signals], "signals": signals}
+    for url in URL_PATTERN.findall(data.message)[:MAX_URLS]:
+        signals.extend(analyze_url(url))
+    return build_response(signals)
+
+@app.post("/analyze/url")
+def check_url(data: UrlIn):
+    return build_response(analyze_url(data.url))
