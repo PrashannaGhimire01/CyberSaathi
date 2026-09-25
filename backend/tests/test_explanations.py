@@ -22,3 +22,8 @@ def test_all_rules_have_both_languages():
     url_rules = [rule for name, rule in URL_RULES.items() if name != "version"]
     for rule in message_rules + url_rules:
         assert rule["reason_en"] and rule["reason_ne"]
+
+def test_web_page_is_served():
+    response = client.get("/ui/")
+    assert response.status_code == 200
+    assert "CyberSaathi" in response.text

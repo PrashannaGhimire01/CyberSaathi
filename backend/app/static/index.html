@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CyberSaathi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>🛡️ CyberSaathi</h1>
+      <p>Your cybersecurity companion · तपाईंको साइबर सुरक्षा साथी</p>
+      <select id="language">
+        <option value="ne">नेपाली</option>
+        <option value="en">English</option>
+      </select>
+    </header>
+
+    <nav>
+      <button class="tab active" data-tab="message">Check message<br>सन्देश जाँच</button>
+      <button class="tab" data-tab="url">Check link<br>लिङ्क जाँच</button>
+      <button class="tab" data-tab="emergency">I already clicked<br>मैले क्लिक गरिसकें</button>
+    </nav>
+
+    <section id="message" class="panel">
+      <textarea id="message-input" maxlength="5000"
+        placeholder="Paste the suspicious message here / शंकास्पद सन्देश यहाँ टाँस्नुहोस्"></textarea>
+      <button id="message-btn">Check / जाँच गर्नुहोस्</button>
+    </section>
+
+    <section id="url" class="panel hidden">
+      <input id="url-input" maxlength="2048"
+        placeholder="Paste the link here / लिङ्क यहाँ टाँस्नुहोस्">
+      <button id="url-btn">Check / जाँच गर्नुहोस्</button>
+    </section>
+
+    <section id="emergency" class="panel hidden">
+      <p>What did you share? / तपाईंले के दिनुभयो?</p>
+      <label><input type="checkbox" value="otp"> OTP</label>
+      <label><input type="checkbox" value="password"> Password / पासवर्ड</label>
+      <label><input type="checkbox" value="card"> Card details / कार्ड विवरण</label>
+      <label><input type="checkbox" value="money"> Sent money / पैसा पठाएँ</label>
+      <label><input type="checkbox" value="app_installed"> Installed an app / एप इन्स्टल गरें</label>
+      <label><input type="checkbox" value="personal_info"> Personal info / व्यक्तिगत विवरण</label>
+      <button id="emergency-btn">Get help / सहायता पाउनुहोस्</button>
+    </section>
+
+    <section id="result" class="hidden"></section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

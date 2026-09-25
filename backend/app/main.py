@@ -6,6 +6,8 @@ from app.services.url_analyzer import analyze_url
 from app.services.risk_engine import calculate_risk
 from app.services.explanation import build_explanation
 from app.services.emergency import build_emergency_plan
+from pathlib import Path
+from fastapi.staticfiles import StaticFiles
 
 MAX_URLS = 5
 Language = Literal["en", "ne"]
@@ -50,3 +52,6 @@ def check_url(data: UrlIn):
 @app.post("/emergency")
 def emergency(data: EmergencyIn):
     return {"steps": build_emergency_plan(set(data.shared), data.language)}
+
+STATIC_DIR = Path(__file__).parent / "static"
+app.mount("/ui", StaticFiles(directory=STATIC_DIR, html=True), name="ui")
