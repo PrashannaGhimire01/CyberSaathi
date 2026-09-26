@@ -1,0 +1,212 @@
+id,text,label,category,language,source,date_added
+1,Your ConnectIPS account has been locked. Verify now to unlock: http://connectips-support.live/login,scam,bank_wallet,en,sms,2026-09-26
+2,"Dear customer, your bank account is temporarily suspended. Reactivate here: http://nabil-verify.xyz",scam,bank_wallet,en,sms,2026-09-26
+3,ConnectIPS Account Locked. Update your details immediately: http://connectipsips-support.com,scam,bank_wallet,en,sms,2026-09-26
+4,Tapai ko bank account block bhayo. Turuntai verify garnuhos: http://ebank-verify.top,scam,bank_wallet,roman,sms,2026-09-26
+5,Your account will be suspended today. Confirm KYC: http://kyc-update-bank.xyz/verify,scam,bank_wallet,en,sms,2026-09-26
+6,तपाईंको खाता बन्द हुन लागेको छ। तुरुन्तै प्रमाणित गर्नुहोस्: http://bank-verify.xyz,scam,bank_wallet,ne,sms,2026-09-26
+7,Alert: Unusual login on your bank account. Secure it now: http://secure-login-bank.click,scam,bank_wallet,en,sms,2026-09-26
+8,Your ATM card is blocked due to KYC. Update now http://card-kyc-update.top,scam,bank_wallet,en,sms,2026-09-26
+9,ConnectIPS: suspicious activity detected. Verify identity: http://connectips.support/auth,scam,bank_wallet,en,sms,2026-09-26
+10,Tapai ko account ma problem cha. Yaha click garera thik garnuhos: http://fix-account.live,scam,bank_wallet,roman,sms,2026-09-26
+11,Bank notice: your online banking is disabled. Enable: http://onlinebank-enable.xyz,scam,bank_wallet,en,sms,2026-09-26
+12,Your Fonepay account needs verification within 24 hours: http://fonepay-verify.top/kyc,scam,bank_wallet,en,sms,2026-09-26
+13,"प्रिय ग्राहक, तपाईंको e-banking रोकिएको छ। खोल्नुहोस्: http://ebank-open.click",scam,bank_wallet,ne,sms,2026-09-26
+14,URGENT: Card will be deactivated. Verify card number and OTP: http://card-active.xyz,scam,bank_wallet,en,sms,2026-09-26
+15,Tapai ko debit card expire huna lageko cha. Renew garnuhos: http://card-renew.top,scam,bank_wallet,roman,sms,2026-09-26
+16,Global IME notice: account frozen. Unfreeze immediately: http://gime-unfreeze.live,scam,bank_wallet,en,sms,2026-09-26
+17,Your NIC Asia account is under review. Confirm details: http://nicasia-confirm.xyz,scam,bank_wallet,en,sms,2026-09-26
+18,Banking alert: verify your mobile number to avoid suspension http://verify-mobile-bank.top,scam,bank_wallet,en,sms,2026-09-26
+19,"Khata suspend hune bhayo, aajai verify garnu hos: http://verify-now-bank.click",scam,bank_wallet,roman,sms,2026-09-26
+20,Your account access is restricted. Restore now: http://restore-access.xyz/bank,scam,bank_wallet,en,sms,2026-09-26
+21,Congratulations! You won Rs 5000 cashback on eSewa. Share your eSewa OTP to claim.,scam,bank_wallet,en,sms,2026-09-26
+22,"Namaste, I am calling from eSewa. To upgrade your wallet limit, please send the OTP you received.",scam,bank_wallet,en,sms,2026-09-26
+23,Khalti KYC drive: verify to accept up to Rs 1 lakh. Reply with your MPIN and OTP.,scam,bank_wallet,en,sms,2026-09-26
+24,Tapai eSewa ko top customer hunuhuncha. Rs 5000 gift ko lagi OTP pathaunuhos.,scam,bank_wallet,roman,sms,2026-09-26
+25,eSewa special offer! Link your bank account. Send OTP to activate the bonus.,scam,bank_wallet,en,sms,2026-09-26
+26,IME Pay: your account selected for reward. Confirm by sending the code sent to you.,scam,bank_wallet,en,sms,2026-09-26
+27,तपाईंले eSewa बाट Rs 5000 क्यासब्याक जित्नुभयो। दाबी गर्न OTP पठाउनुहोस्।,scam,bank_wallet,ne,sms,2026-09-26
+28,Hello from Khalti support. We fixed your account issue. Please share OTP to complete.,scam,bank_wallet,en,sms,2026-09-26
+29,Wallet ma paisa aayo tara claim garna OTP chahincha. Pathaunuhos na.,scam,bank_wallet,roman,sms,2026-09-26
+30,"eSewa merchant bonus unlocked! Verify identity, reply with your PIN.",scam,bank_wallet,en,sms,2026-09-26
+31,"You are eligible for Rs 2000 refund. To receive, provide your eSewa OTP now.",scam,bank_wallet,en,sms,2026-09-26
+32,Khalti: complete KYC in 1 hour or account closes. Send code: reply here.,scam,bank_wallet,en,sms,2026-09-26
+33,"Dear user, share the 6 digit code we sent to confirm your eSewa cashback.",scam,bank_wallet,en,sms,2026-09-26
+34,Tapai ko wallet limit badhaune offer cha. OTP dinuhos ra offer activate garnuhos.,scam,bank_wallet,roman,sms,2026-09-26
+35,eSewa lucky draw winner! Rs 10000 waiting. Send OTP to transfer now.,scam,bank_wallet,en,sms,2026-09-26
+36,I sent money to your eSewa by mistake. Please send me the OTP you got to reverse it.,scam,otp_request,en,sms,2026-09-26
+37,"Bro maile galti le tapai ko number ma paisa pathaye, OTP pathaidinu na please.",scam,otp_request,roman,sms,2026-09-26
+38,Your parcel is held. Confirm delivery by sharing the OTP sent to your phone.,scam,otp_request,en,sms,2026-09-26
+39,Verification needed: reply with the 6-digit code to keep your number active.,scam,otp_request,en,sms,2026-09-26
+40,"तपाईंको नम्बरमा आएको OTP कोड मलाई पठाउनुहोस्, अनि मात्र काम हुन्छ।",scam,otp_request,ne,sms,2026-09-26
+41,"Sir OTP aayo hola, tyo code mailai bhannus, ma yaha bata verify garchu.",scam,otp_request,roman,sms,2026-09-26
+42,"To receive your refund, please read out the OTP we just sent you.",scam,otp_request,en,sms,2026-09-26
+43,Account recovery: forward the SMS code you received to this number.,scam,otp_request,en,sms,2026-09-26
+44,"Maile tapai lai form bharideko, verify garna OTP chahiyo, pathaunus.",scam,otp_request,roman,sms,2026-09-26
+45,Final step: share the one time password to activate your free data pack.,scam,otp_request,en,sms,2026-09-26
+46,Congratulations! Your number won Rs 25 lakh in the Ncell lucky draw. Claim: http://ncell-lucky.xyz,scam,prize,en,sms,2026-09-26
+47,Badhai cha! Tapai le Rs 50000 lottery jitnubhayo. Claim garna yaha janus: http://prize-claim.top,scam,prize,roman,sms,2026-09-26
+48,"You have been selected for a Rs 1,00,000 government grant. Verify account: http://grant-verify.click",scam,prize,en,sms,2026-09-26
+49,बधाई छ! तपाईंको सिम कार्ड Rs 20 लाख को विजेता भयो। सम्पर्क: [PHONE],scam,prize,ne,sms,2026-09-26
+50,WhatsApp Anniversary Winner! You won a car. Register here: http://whatsapp-gift.xyz,scam,prize,en,sms,2026-09-26
+51,Free Rs 599 recharge for all NTC users today only! Claim: http://ntc-freerecharge.top,scam,prize,en,sms,2026-09-26
+52,Tapai ko mobile number lucky winner select bhayo. Rs 10 lakh ko lagi call: [PHONE],scam,prize,roman,sms,2026-09-26
+53,You won an iPhone 16 in our festival offer! Pay Rs 500 delivery: http://iphone-gift.click,scam,prize,en,sms,2026-09-26
+54,Coca-Cola lucky draw: your bottle code won Rs 5 lakh. Claim now: http://cola-draw.xyz,scam,prize,en,sms,2026-09-26
+55,Congratulations winner! Send Rs 1000 processing fee to receive Rs 2 lakh prize.,scam,prize,en,sms,2026-09-26
+56,तपाईंले Dashain विशेष लक्की ड्र जित्नुभयो। इनाम लिन लिङ्क खोल्नुहोस्: http://dashain-offer.top,scam,prize,ne,sms,2026-09-26
+57,Your Facebook account won Meta lottery Rs 15 lakh. Contact agent: [PHONE],scam,prize,en,sms,2026-09-26
+58,Inaam jitnu bhayo! Rs 3 lakh. Bank detail ra OTP pathaunuhos claim ko lagi.,scam,prize,roman,sms,2026-09-26
+59,Amazon Big Billion winner! Claim gift card: http://amazon-reward.xyz within 2 hours.,scam,prize,en,sms,2026-09-26
+60,You are today's lucky visitor! Spin to win Rs 90000: http://spin-win.click,scam,prize,en,sms,2026-09-26
+61,Urgent hiring for Malta! Salary Rs 1.5 lakh/month. Registration fee Rs 5000 only. Call [PHONE],scam,job,en,messenger,2026-09-26
+62,"Europe job visa ready! UK, Poland, Croatia. Limited seats. Advance Rs 50000. Whatsapp [PHONE]",scam,job,en,messenger,2026-09-26
+63,Dubai ma security guard job. Visa free. Registration ko lagi Rs 3000 pathaunuhos.,scam,job,roman,messenger,2026-09-26
+64,Work from home job! Earn Rs 60000/month. No experience. Join Telegram: http://t.me/joblink,scam,job,en,messenger,2026-09-26
+65,Canada work permit available now. Pay processing fee to confirm your slot: [PHONE],scam,job,en,messenger,2026-09-26
+66,"विदेश जागिर! मलेसिया, कतार। कमिसन नलाग्ने। दर्ता शुल्क Rs 2000। सम्पर्क: [PHONE]",scam,job,ne,messenger,2026-09-26
+67,"Hotel job in Portugal, salary 1200 euro. Send documents and Rs 10000 advance.",scam,job,en,messenger,2026-09-26
+68,"Online part time job: like videos, earn Rs 2000 daily. Register: http://earn-daily.xyz",scam,job,en,messenger,2026-09-26
+69,Ghar bata kaam garera paisa kamaunuhos. Registration Rs 1500. Details: http://work-home.top,scam,job,roman,messenger,2026-09-26
+70,"Israel caregiver job, high salary. Interview fee Rs 5000. Confirm today: [PHONE]",scam,job,en,messenger,2026-09-26
+71,Australia farm job with visa. 100% guarantee. Deposit Rs 25000: http://aus-job.click,scam,job,en,messenger,2026-09-26
+72,"Data entry job, Rs 30000/month, work from mobile. Pay Rs 800 kit fee to start.",scam,job,en,messenger,2026-09-26
+73,"Hi, are you interested in a part-time online job? Earn Rs 3000 daily. Reply YES.",scam,job,en,messenger,2026-09-26
+74,Complete simple tasks and earn! Join our VIP group and invest Rs 1000 to get Rs 1300 back.,scam,job,en,messenger,2026-09-26
+75,Tapai le YouTube video like garera din ko Rs 2000 kamaunu huncha. Telegram join garnuhos.,scam,job,roman,messenger,2026-09-26
+76,"Invest Rs 5000 today, withdraw Rs 8000 tomorrow. Guaranteed. DM to start.",scam,job,en,messenger,2026-09-26
+77,Trading platform with 40% daily profit. Deposit now to double your money: http://fx-profit.xyz,scam,job,en,messenger,2026-09-26
+78,Prepaid task available! Pay Rs 3000 advance to unlock Rs 9000 commission task.,scam,job,en,messenger,2026-09-26
+79,Crypto investment: turn Rs 10000 into Rs 50000 in 7 days. Limited slots. Join: http://t.me/cryptoearn,scam,job,en,messenger,2026-09-26
+80,"Google review garne kaam, review ko Rs 200. Advance Rs 2000 deposit garnuhos.",scam,job,roman,messenger,2026-09-26
+81,Your task account has Rs 41000 balance. Pay Rs 15000 tax to withdraw immediately.,scam,job,en,messenger,2026-09-26
+82,"Online earning group! First 3 tasks free, then invest to earn more. Join today.",scam,job,en,messenger,2026-09-26
+83,"NEPSE AI trading bot, 30% return per week. Fund your account: http://nepse-ai.top",scam,job,en,messenger,2026-09-26
+84,"Easy money! Rate restaurants, earn per task. Deposit to activate VIP channel.",scam,job,en,messenger,2026-09-26
+85,Instant loan Rs 50000 without documents! Approved in 5 min. Apply: http://quickloan-np.xyz,scam,loan,en,sms,2026-09-26
+86,Pre-approved cash loan for you. No collateral. Download app: http://easycash-loan.top,scam,loan,en,sms,2026-09-26
+87,Turuntai loan chahiyo? Bina dhito Rs 1 lakh. App download garnuhos: http://loan-nepal.click,scam,loan,roman,sms,2026-09-26
+88,You have not repaid your loan. Pay now or we will message all your contacts.,scam,loan,en,sms,2026-09-26
+89,Loan overdue! Send Rs 8000 today or your photo will be shared with family.,scam,loan,en,sms,2026-09-26
+90,"Get emergency loan instantly, only Aadhaar/citizenship needed: http://fastloan.xyz",scam,loan,en,sms,2026-09-26
+91,तपाईंको ऋण बाँकी छ। आज नतिरे सम्पर्कहरूलाई जानकारी दिइनेछ।,scam,loan,ne,sms,2026-09-26
+92,"Congratulations, your loan of Rs 30000 is approved! Pay Rs 999 processing to release.",scam,loan,en,sms,2026-09-26
+93,Final warning: clear your dues or legal notice will be sent to your relatives.,scam,loan,en,sms,2026-09-26
+94,"Low interest personal loan, disburse today. Just pay Rs 500 verification fee.",scam,loan,en,sms,2026-09-26
+95,Official Court Order Warning: your IP is linked to illegal activity. Reply within 24 hours or face arrest.,scam,impersonation,en,sms,2026-09-26
+96,This is Nepal Police Cyber Cell. A case is filed against you. Call [PHONE] immediately to settle.,scam,impersonation,en,sms,2026-09-26
+97,Your electricity will be disconnected tonight. Pay pending bill now: http://nea-billpay.xyz,scam,impersonation,en,sms,2026-09-26
+98,Customs: your parcel contains illegal items. Pay Rs 15000 fine to release: [PHONE],scam,impersonation,en,sms,2026-09-26
+99,"Mummy, mero phone bigriyo, naya number bata lekheko. Urgent Rs 20000 yo account ma pathaidinu.",scam,impersonation,roman,sms,2026-09-26
+100,"Hi it's me, I lost my phone. I'm in trouble, please send money to this QR urgently.",scam,impersonation,en,sms,2026-09-26
+101,तपाईंको नागरिकता नम्बर दुरुपयोग भएको छ। प्रहरीलाई सम्पर्क गर्नुहोस्: [PHONE],scam,impersonation,ne,sms,2026-09-26
+102,Your TIA parcel is on hold for customs duty Rs 2500. Pay here: http://customs-pay.top,scam,impersonation,en,sms,2026-09-26
+103,Blue Book renewal pending. Pay tax online to avoid penalty: http://bluebook-tax.click,scam,impersonation,en,sms,2026-09-26
+104,Embassy notice: your visa application needs Rs 8000 fee. Deposit today: [PHONE],scam,impersonation,en,sms,2026-09-26
+105,"I am your relative from abroad, I sent you a gift parcel. Pay clearance Rs 12000: [PHONE]",scam,impersonation,en,sms,2026-09-26
+106,Traffic fine unpaid. Settle online now or license cancelled: http://traffic-fine.xyz,scam,impersonation,en,sms,2026-09-26
+107,Your phone has a virus! Install this cleaner now: http://phone-clean.xyz to protect data.,scam,other,en,messenger,2026-09-26
+108,Facebook: your account will be deleted for policy violation. Appeal: http://fb-appeal.top,scam,other,en,messenger,2026-09-26
+109,Your Google account was accessed from a new device. Secure now: http://g-secure.click,scam,other,en,messenger,2026-09-26
+110,"Item for sale confirmed! Pay advance Rs 3000 to book, delivery tomorrow. eSewa: [PHONE]",scam,other,en,messenger,2026-09-26
+111,Room for rent Rs 8000 in Kathmandu. Send Rs 5000 advance to reserve: [PHONE],scam,other,en,messenger,2026-09-26
+112,Netflix payment failed. Update card details to continue: http://netflix-pay.xyz,scam,other,en,messenger,2026-09-26
+113,Tapai ko Facebook hack huna lageko cha. Yaha login garera bachaunuhos: http://fb-safe.top,scam,other,roman,messenger,2026-09-26
+114,"Cheap iPhone for sale, 50% off! Pay via eSewa first, ship same day. Contact [PHONE]",scam,other,en,messenger,2026-09-26
+115,Your eSewa OTP is 482913. Do not share this code with anyone.,legit,otp,en,sms,2026-09-26
+116,"123456 is your Khalti verification code. Never share it with anyone, including Khalti staff.",legit,otp,en,sms,2026-09-26
+117,Your OTP for Nabil Bank login is 771290. Valid for 5 minutes. Do not share.,legit,otp,en,sms,2026-09-26
+118,Use 908712 to verify your ConnectIPS account. Do not disclose this code.,legit,otp,en,sms,2026-09-26
+119,तपाईंको OTP: 553201 हो। यो कोड कसैलाई नदिनुहोस्।,legit,otp,ne,sms,2026-09-26
+120,Your Google verification code is 448120. Do not share this code.,legit,otp,en,sms,2026-09-26
+121,IME Pay OTP: 330771. Keep it confidential and do not share.,legit,otp,en,sms,2026-09-26
+122,612345 is your one-time password for Facebook. Don't share it.,legit,otp,en,sms,2026-09-26
+123,Your login OTP is 210398. eSewa will never call to ask for this code.,legit,otp,en,sms,2026-09-26
+124,WhatsApp code 559-208. Don't share this code with others.,legit,otp,en,sms,2026-09-26
+125,"Dear customer, Rs 2,500 debited from your account XXXX1234 on 2026-09-20. Bal: Rs 18,200.",legit,transaction_alert,en,sms,2026-09-26
+126,"You have received Rs 1,000 in your eSewa from RAM SHARMA. Balance: Rs 4,320.",legit,transaction_alert,en,sms,2026-09-26
+127,Payment of Rs 850 to Khalti for NTC Topup successful. Ref: 990231.,legit,transaction_alert,en,sms,2026-09-26
+128,"Rs 5,000 transferred to your Khalti wallet successfully. Available balance Rs 6,150.",legit,transaction_alert,en,sms,2026-09-26
+129,"Your ATM withdrawal of Rs 10,000 was successful. Thank you for banking with us.",legit,transaction_alert,en,sms,2026-09-26
+130,"तपाईंको खातामा Rs 15,000 जम्मा भयो। मिति: 2026-09-18।",legit,transaction_alert,ne,sms,2026-09-26
+131,"Bill payment of Rs 1,200 for NEA electricity completed via eSewa. Thank you.",legit,transaction_alert,en,sms,2026-09-26
+132,"Fund transfer of Rs 3,000 to account XXXX9876 successful. Ref TXN552019.",legit,transaction_alert,en,sms,2026-09-26
+133,"Your credit card payment of Rs 7,500 is received. Thank you.",legit,transaction_alert,en,sms,2026-09-26
+134,"Salary of Rs 45,000 credited to your account XXXX2211. Balance Rs 52,300.",legit,transaction_alert,en,sms,2026-09-26
+135,Get 10% cashback on your next eSewa payment this Dashain. T&C apply. No code needed.,legit,promotion,en,sms,2026-09-26
+136,Ncell: Enjoy 5GB data at Rs 199. Dial *17123# to activate. Offer valid till Ashwin end.,legit,promotion,en,sms,2026-09-26
+137,Daraz 11.11 Sale is live! Up to 70% off. Shop the app now. Happy shopping!,legit,promotion,en,sms,2026-09-26
+138,NTC: Recharge Rs 500 and get 20% bonus balance. Valid this week only.,legit,promotion,en,sms,2026-09-26
+139,तपाईंको लागि Khalti मा नयाँ अफर! बिजुली बिल तिर्दा Rs 20 सम्म बचत। धन्यवाद।,legit,promotion,ne,sms,2026-09-26
+140,"Foodmandu: Flat Rs 100 off on orders above Rs 500. Use in-app, order now!",legit,promotion,en,sms,2026-09-26
+141,IME Pay: Refer a friend and both get Rs 50. Share your code from the app.,legit,promotion,en,sms,2026-09-26
+142,Sastodeal festive sale! Free delivery on all orders this weekend.,legit,promotion,en,sms,2026-09-26
+143,"Your Ncell number will be recharged automatically. To stop, dial *17111#.",legit,service,en,sms,2026-09-26
+144,"Reminder: your internet bill of Rs 1,299 is due on 2026-09-30. Pay via the WorldLink app.",legit,service,en,sms,2026-09-26
+145,Your appointment at Grande Hospital is confirmed for 2026-09-22 at 11:00 AM.,legit,service,en,sms,2026-09-26
+146,"eSewa: Password changed successfully. If this wasn't you, contact 1660-01-02121.",legit,service,en,sms,2026-09-26
+147,तपाईंको WorldLink इन्टरनेट प्याकेज 3 दिनमा सकिन्छ। नवीकरण गर्नुहोस्।,legit,service,ne,sms,2026-09-26
+148,Your load shedding schedule for this week is available on the NEA app.,legit,service,en,sms,2026-09-26
+149,Khalti: Your electricity bill payment reminder for this month is now available in-app.,legit,service,en,sms,2026-09-26
+150,Nabil Bank branches will be closed on public holiday 2026-09-25. Online banking works as usual.,legit,service,en,sms,2026-09-26
+151,"Hey, are we still meeting at 5 pm today? Let me know.",legit,personal,en,messenger,2026-09-26
+152,Bhai aaja office bata kati baje aaunuhuncha? Khana banauchu.,legit,personal,roman,messenger,2026-09-26
+153,"Happy birthday! Have a great day, see you at the party tonight.",legit,personal,en,messenger,2026-09-26
+154,Please send me the notes from today's class when you're free.,legit,personal,en,messenger,2026-09-26
+155,"दिदी, भोलि बिहान घर आउँदै छु। स्टेसन लिन आउनु होला।",legit,personal,ne,messenger,2026-09-26
+156,Can you pick up milk and bread on your way home? Thanks.,legit,personal,en,messenger,2026-09-26
+157,Meeting rescheduled to 3 pm tomorrow in the conference room.,legit,personal,en,messenger,2026-09-26
+158,"Thanks for lunch today, it was fun. Let's do it again soon!",legit,personal,en,messenger,2026-09-26
+159,"Sir, assignment submit garne last date kahile ho?",legit,personal,roman,messenger,2026-09-26
+160,"Call me when you reach home, drive safe.",legit,personal,en,messenger,2026-09-26
+161,Aaja ko match herna janchau? Ticket book garum?,legit,personal,roman,messenger,2026-09-26
+162,The documents are ready. I'll email them to you by evening.,legit,personal,en,messenger,2026-09-26
+163,New features are live! Read about them on our blog: https://blog.esewa.com.np,legit,service,en,sms,2026-09-26
+164,Track your order status anytime on https://www.daraz.com.np in the app.,legit,service,en,sms,2026-09-26
+165,Download the latest Khalti app update from the Play Store for better security.,legit,service,en,sms,2026-09-26
+166,Read this week's cyber safety tips from Nepal Police on their official website.,legit,service,en,sms,2026-09-26
+167,Your Sanima Bank OTP is 664201. Do not share with anyone.,legit,otp,en,sms,2026-09-26
+168,"Prabhu Pay code: 553120. This code is confidential, do not share.",legit,otp,en,sms,2026-09-26
+169,तपाईंको verification code 889012 हो। कसैलाई नबताउनुहोस्।,legit,otp,ne,sms,2026-09-26
+170,Your Instagram code is 449 220. Don't share it.,legit,otp,en,sms,2026-09-26
+171,MPIN reset code for your wallet: 120934. Keep it private.,legit,otp,en,sms,2026-09-26
+172,"तपाईंको eSewa बाट Rs 300 NTC टपअप सफल भयो। ब्यालेन्स: Rs 1,240।",legit,transaction_alert,ne,sms,2026-09-26
+173,"Tapai ko account bata Rs 2,000 kaatiyo. Bal Rs 9,800. Miti 2026-09-19.",legit,transaction_alert,roman,sms,2026-09-26
+174,"Rs 500 received in Khalti from SITA KC. Balance Rs 2,100.",legit,transaction_alert,en,sms,2026-09-26
+175,"Your cheque of Rs 25,000 has been cleared. Thank you for banking with us.",legit,transaction_alert,en,sms,2026-09-26
+176,"Loan EMI of Rs 6,500 auto-debited successfully. Next due 2026-10-19.",legit,transaction_alert,en,sms,2026-09-26
+177,QR payment of Rs 150 to Himalayan Java successful. Ref TXN771230.,legit,transaction_alert,en,sms,2026-09-26
+178,"Fixed deposit of Rs 1,00,000 opened successfully. Maturity 2027-09-26.",legit,transaction_alert,en,sms,2026-09-26
+179,"Ncell: Rs 99 ma 2GB data, aajai activate garnuhos. Dial *17102#.",legit,promotion,roman,sms,2026-09-26
+180,दशैं अफर! Daraz मा ७०% सम्म छुट। एपमा किनमेल गर्नुहोस्।,legit,promotion,ne,sms,2026-09-26
+181,WorldLink: upgrade to 100 Mbps at the same price this month. Call 16600.,legit,promotion,en,sms,2026-09-26
+182,Bhatbhateni loyalty: you earned 120 points this month. Redeem in store.,legit,promotion,en,sms,2026-09-26
+183,Pathao: Rs 50 off your next ride this weekend. Book in the app.,legit,promotion,en,messenger,2026-09-26
+184,Your electricity bill of Rs 940 for Bhadra is generated. View in the NEA app.,legit,service,en,sms,2026-09-26
+185,Khanepani: water supply will be cut on 2026-09-24 from 9 AM to 2 PM for maintenance.,legit,service,en,sms,2026-09-26
+186,तपाईंको WorldLink प्याकेज भोलि सकिन्छ। समयमै नवीकरण गर्नुहोस्।,legit,service,ne,sms,2026-09-26
+187,Your Ncell balance is Rs 45. Recharge to stay connected.,legit,service,en,sms,2026-09-26
+188,Passport ready for collection at DAO. Bring your receipt and citizenship.,legit,service,en,sms,2026-09-26
+189,Reminder: your dental appointment is tomorrow at 4 PM. Reply CANCEL to reschedule.,legit,service,en,sms,2026-09-26
+190,Ncell: तपाईंको डेटा प्याक ५००MB बाँकी छ। *१७123# डायल गर्नुहोस्।,legit,service,ne,sms,2026-09-26
+191,Your library book is due 2026-09-28. Please return or renew online.,legit,service,en,sms,2026-09-26
+192,"Aama, ma bholi ghar aaudai chu. Timro lagi tarkari kinera lyauchu.",legit,personal,roman,messenger,2026-09-26
+193,भोलि बिहान ८ बजे भेटौं है। ढिलो नगर्नु।,legit,personal,ne,messenger,2026-09-26
+194,Did you finish the project report? Send it when done.,legit,personal,en,messenger,2026-09-26
+195,Timilai ke chahiyo market bata? Ma janai lageko chu.,legit,personal,roman,messenger,2026-09-26
+196,"Let's catch up this weekend, it's been a while!",legit,personal,en,messenger,2026-09-26
+197,"दाइ, पैसा भोलि फिर्ता गर्छु है, आज अलि गाह्रो भयो।",legit,personal,ne,messenger,2026-09-26
+198,"Notes photo pathaidinu na, aaja class miss bhayo.",legit,personal,roman,messenger,2026-09-26
+199,Reached home safely. Thanks for the ride today!,legit,personal,en,messenger,2026-09-26
+200,Khana khayau? Ma ta ahile khana khana lageko.,legit,personal,roman,messenger,2026-09-26
+201,Meeting notes are shared in the group. Please review before tomorrow.,legit,personal,en,messenger,2026-09-26
+202,Happy Dashain! Tapai lai ra pariwar lai mangalmaya subhakamana.,legit,personal,roman,messenger,2026-09-26
+203,Can you send me your location? I'll come pick you up.,legit,personal,en,messenger,2026-09-26
+204,तपाईंको खाता आज बन्द हुन्छ। तुरुन्तै OTP पठाएर प्रमाणित गर्नुहोस्।,scam,otp_request,ne,sms,2026-09-26
+205,"Bank bata call: tapai ko card block bhayo, kholna OTP ra PIN bhannuhos.",scam,bank_wallet,roman,sms,2026-09-26
+206,इनाम जित्नुभयो! Rs ५ लाख। दाबी गर्न यो लिङ्क खोल्नुहोस्: http://inaam-nepal.top,scam,prize,ne,sms,2026-09-26
+207,"Ghar bata online kaam gara, din ko Rs 3000. Registration Rs 2000 pathaunuhos.",scam,job,roman,messenger,2026-09-26
+208,तपाईंको बिजुली आज काटिन्छ। बक्यौता तिर्नुहोस्: http://nea-pay.xyz,scam,impersonation,ne,sms,2026-09-26
+209,"Loan approve bhayo Rs 1 lakh, release garna Rs 999 process fee tirnuhos.",scam,loan,roman,sms,2026-09-26
+210,तुरुन्तै OTP पठाउनुहोस् नत्र तपाईंको eSewa खाता बन्द हुन्छ।,scam,otp_request,ne,sms,2026-09-26
+211,"Facebook account delete huna lageko, bachauna yaha login gara: http://fb-save.top",scam,other,roman,messenger,2026-09-26
