@@ -1,4 +1,398 @@
 id,text,label,category,language,source,date_added
-1,Badhai cha! Tapai lottery ma Rs 50000 jitnubhayo. Contact [PHONE] turuntai.,scam,prize,roman,sms,2026-09-25
-2,Your eSewa OTP is 482913. Do not share this code with anyone.,legit,otp,en,sms,2026-09-25
-3,"Hi [NAME], meeting at 5 pm. Call me on [PHONE].",legit,personal,en,messenger,2026-09-25
+1,Your ConnectIPS account has been locked. Verify now to unlock: http://connectips-support.live/login,scam,bank_wallet,en,sms,2026-09-26
+2,तपाईंको eSewa खाता बन्द हुन लागेको छ। तुरुन्त KYC अद्यावधिक गर्नुहोस्: http://esewa-kyc-check.live/verify,scam,bank_wallet,ne,viber,2026-09-26
+3,Tapai ko Khalti wallet lock bhayo. Unlock garna verify garnuhos: http://khalti-help.live/login,scam,bank_wallet,roman,whatsapp,2026-09-26
+4,तपाईंको Nabil Bank account suspicious activity का कारण रोकिएको छ। Verify गर्नुहोस्: http://nabil-secure.live/login,scam,bank_wallet,mixed,messenger,2026-09-26
+5,Himalayan Bank alert: Your mobile banking will be suspended today. Update your details: http://hbl-update.live/secure,scam,bank_wallet,en,email,2026-09-26
+6,तपाईंको IME Pay खातामा असामान्य गतिविधि देखियो। खाता सुरक्षित गर्न यहाँ जानुहोस्: http://imepay-safe.live/check,scam,bank_wallet,ne,other,2026-09-26
+7,Tapai ko eSewa limit sakiyo. Limit badhauna KYC update garnuhos: http://esewa-limit.live/update,scam,bank_wallet,roman,sms,2026-09-26
+8,Khalti सुरक्षा सूचना: तपाईंको wallet मा unauthorized login भयो। Secure now: http://khalti-security.live/reset,scam,bank_wallet,mixed,viber,2026-09-26
+9,Nepal Bank Limited notice: Your account requires immediate verification. Visit http://nbl-verify.live/account,scam,bank_wallet,en,whatsapp,2026-09-26
+10,तपाईंको ConnectIPS मा जोडिएको बैंक खाता निष्क्रिय भएको छ। पुनः सक्रिय गर्न क्लिक गर्नुहोस्: http://connectips-active.live/verify,scam,bank_wallet,ne,messenger,2026-09-26
+11,Tapai ko Ncell Pay account block huna lagyo. Account bachaauna click garnuhos: http://ncellpay-support.live/unlock,scam,bank_wallet,roman,email,2026-09-26
+12,Siddhartha Bank: तपाईंको account verification बाँकी छ। अहिले complete गर्नुहोस्: http://sbl-verify.live/login,scam,bank_wallet,mixed,other,2026-09-26
+13,Prabhu Bank security warning: Your net banking credentials have expired. Renew now: http://prabhu-renew.live/login,scam,bank_wallet,en,sms,2026-09-26
+14,तपाईंको नेपाल बैंक खाताबाट अनधिकृत प्रवेश प्रयास भएको छ। विवरण जाँच्न यहाँ क्लिक गर्नुहोस्: http://nbl-alert.live/check,scam,bank_wallet,ne,viber,2026-09-26
+15,Tapai ko IME Pay wallet verify bhayena bhane 24 ghanta ma banda hunchha: http://imepay-verify.live/kyc,scam,bank_wallet,roman,whatsapp,2026-09-26
+16,eSewa Alert: तपाईंको wallet को transaction limit घटाइएको छ। Restore गर्न click गर्नुहोस्: http://esewa-restore.live/limit,scam,bank_wallet,mixed,messenger,2026-09-26
+17,Your NIC Asia account will be deactivated due to incomplete KYC. Complete it here: http://nic-asia-kyc.live/update,scam,bank_wallet,en,email,2026-09-26
+18,तपाईंको डिजिटल वालेटको परिचय प्रमाणीकरण समाप्त भएको छ। पुनः प्रमाणीकरण गर्नुहोस्: http://wallet-verify.live/kyc,scam,bank_wallet,ne,other,2026-09-26
+19,Tapai ko bank account ma unusual transaction dekhiayo. Secure garna login garnuhos: http://bank-secure.live/login,scam,bank_wallet,roman,sms,2026-09-26
+20,Global IME Bank notice: तपाईंको mobile banking रोकिएको छ। Reactivate now: http://globalime-reactivate.live/login,scam,bank_wallet,mixed,viber,2026-09-26
+21,Congratulations! You have won NPR 50000 in the Nepal Telecom Lucky Draw. Claim now: http://ntc-prize.live/claim,scam,prize,en,whatsapp,2026-09-26
+22,बधाई छ! तपाईंले रु १००००० नगद पुरस्कार जित्नुभएको छ। दाबी गर्न यहाँ क्लिक गर्नुहोस्: http://prize-nepal.live/claim,scam,prize,ne,messenger,2026-09-26
+23,Badhaai chha! Tapai le Dashain lucky draw ma Rs. 25000 jitnubhayo. Claim garnuhos: http://dashain-prize.live/win,scam,prize,roman,email,2026-09-26
+24,eSewa Dashain Offer: तपाईंले Rs. 10000 cashback जित्नुभयो। Claim गर्न click गर्नुहोस्: http://esewa-bonus.live/claim,scam,prize,mixed,other,2026-09-26
+25,You are selected as a Daraz anniversary winner. Pay NPR 450 delivery fee to receive your iPhone: http://daraz-winner.live/redeem,scam,prize,en,sms,2026-09-26
+26,तपाईंको मोबाइल नम्बरले विशेष उपहार जितेको छ। रु ५०० शुल्क तिरेर उपहार लिनुहोस्: http://gift-nepal.live/redeem,scam,prize,ne,viber,2026-09-26
+27,Tapai Hamro Patro lucky winner hunuhunchha. Rs. 15000 lina form bharnuhos: http://hamropatro-win.live/form,scam,prize,roman,whatsapp,2026-09-26
+28,Khalti Special Reward: तपाईंको लागि NPR 8000 cashback छ। Verify गरेर receive गर्नुहोस्: http://khalti-reward.live/verify,scam,prize,mixed,messenger,2026-09-26
+29,You won two Nepal Airlines tickets in our customer promotion. Pay tax to claim: http://nepalair-prize.live/tax,scam,prize,en,email,2026-09-26
+30,बधाई छ! तपाईंलाई बैंकको ग्राहक उपहारमा रु ७५००० परेको छ। लिन यहाँ जानुहोस्: http://bank-gift.live/claim,scam,prize,ne,other,2026-09-26
+31,Tapai le Ncell festive offer ma Samsung phone jitnubhayo. Delivery fee tirnuhos: http://ncell-gift.live/pay,scam,prize,roman,sms,2026-09-26
+32,Congratulations! तपाईं हाम्रो 1000th customer हुनुहुन्छ। Rs. 20000 bonus claim गर्नुहोस्: http://customer-bonus.live/claim,scam,prize,mixed,viber,2026-09-26
+33,Your IME Pay wallet has been selected for a NPR 12000 reward. Verify your account: http://imepay-reward.live/verify,scam,prize,en,whatsapp,2026-09-26
+34,तपाईंले विशेष चिठ्ठामा आइफोन जित्नुभएको छ। भन्सार शुल्क बुझाउन यहाँ क्लिक गर्नुहोस्: http://iphone-prize.live/customs,scam,prize,ne,messenger,2026-09-26
+35,Tapai lai Rs. 50000 ko cashback approve bhayo. Paisa receive garna OTP dinuhos: [PHONE],scam,prize,roman,email,2026-09-26
+36,नेपाल Telecom Lucky Draw: You won Rs. 100000! Processing fee NPR 1500 पठाउनुहोस्: [PHONE],scam,prize,mixed,other,2026-09-26
+37,Your OTP is 482915. Share it with our eSewa verification agent to unlock your account.,scam,otp_request,en,sms,2026-09-26
+38,तपाईंको खाताको प्रमाणीकरण कोड ७२९४८१ हो। खाता खुलाउन यो कोड [PHONE] मा पठाउनुहोस्।,scam,otp_request,ne,viber,2026-09-26
+39,Tapai ko Khalti OTP 583742 ho. Wallet secure garna yo code [PHONE] ma pathaunuhos.,scam,otp_request,roman,whatsapp,2026-09-26
+40,Nabil Bank verification: तपाईंको OTP 493816 हो। Account सुरक्षित गर्न agent लाई पठाउनुहोस्: [PHONE],scam,otp_request,mixed,messenger,2026-09-26
+41,Security alert: Send your ConnectIPS code 671294 to [PHONE] to stop account suspension.,scam,otp_request,en,email,2026-09-26
+42,तपाईंको IME Pay कोड ८४७२६१ हो। बोनस लिन यो कोड [PHONE] मा पठाउनुहोस्।,scam,otp_request,ne,other,2026-09-26
+43,Tapai ko bank OTP 295837 ho. KYC complete garna [PHONE] ma share garnuhos.,scam,otp_request,roman,sms,2026-09-26
+44,eSewa Alert: OTP 764921 पठाउनुहोस् र आफ्नो Rs. 5000 cashback receive गर्नुहोस्: [PHONE],scam,otp_request,mixed,viber,2026-09-26
+45,Your Himalayan Bank verification code is 308652. Reply with it immediately to prevent a block.,scam,otp_request,en,whatsapp,2026-09-26
+46,तपाईंको वालेट खोल्ने कोड ६१५९२८ हो। यसलाई [PHONE] मा पठाउनुस्।,scam,otp_request,ne,messenger,2026-09-26
+47,Tapai ko Prabhu Bank OTP 849361 ho. Account reactivate garna hamilai pathaunuhos: [PHONE],scam,otp_request,roman,email,2026-09-26
+48,Khalti Support: तपाईंको OTP 217684 छ। Wallet limit increase गर्न reply गर्नुहोस्: [PHONE],scam,otp_request,mixed,other,2026-09-26
+49,Please share the OTP 956203 received from your bank so we can process your refund.,scam,otp_request,en,sms,2026-09-26
+50,तपाईंको मोबाइल बैंकिङ कोड ४६३८९२ हो। खाता जोगाउन यो कोड तुरुन्त पठाउनुहोस्: [PHONE],scam,otp_request,ne,viber,2026-09-26
+51,Tapai ko eSewa verification code 730518 ho. Cashback claim garna [PHONE] ma pathaunuhos.,scam,otp_request,roman,whatsapp,2026-09-26
+52,IME Pay urgent: OTP 682174 verify गरेर आफ्नो account unlock गर्नुहोस्। Send to [PHONE],scam,otp_request,mixed,messenger,2026-09-26
+53,Work from home opportunity: Earn NPR 5000 daily with simple typing tasks. Register here: http://worknepal-live.com/join,scam,job,en,email,2026-09-26
+54,घरबाट काम गर्ने अवसर! दैनिक रु ३००० कमाउनुहोस्। दर्ताका लागि यहाँ क्लिक गर्नुहोस्: http://job-nepal.live/apply,scam,job,ne,other,2026-09-26
+55,Dubai ma job cha. Mahina ko Rs. 180000 talab. Processing fee Rs. 15000 pathaunuhos: [PHONE],scam,job,roman,sms,2026-09-26
+56,"Daraz Hiring: तपाईंको profile select भएको छ। Salary NPR 45000 per month, registration fee पठाउनुहोस्: [PHONE]",scam,job,mixed,viber,2026-09-26
+57,Immediate vacancy at a Kathmandu office. No interview required. Apply now: http://kathmandu-job.live/apply,scam,job,en,whatsapp,2026-09-26
+58,नेपाल टेलिकममा डाटा इन्ट्रीको जागिर खुल्यो। मासिक रु ४०००० तलब। आवेदन शुल्क तिर्नुहोस्: [PHONE],scam,job,ne,messenger,2026-09-26
+59,Qatar ko hotel ma job pakka bhayo. Visa processing ko lagi Rs. 25000 pathaunuhos: [PHONE],scam,job,roman,email,2026-09-26
+60,eSewa Customer Support Job: तपाईंले interview बिना select हुनुभयो। Training fee NPR 2000 pay गर्नुहोस्: http://esewa-career.live/pay,scam,job,mixed,other,2026-09-26
+61,Earn money by reviewing online products. Daily payment guaranteed. Activate your account: http://review-job.live/start,scam,job,en,sms,2026-09-26
+62,मलेसियामा राम्रो जागिर मिलेको छ। प्रक्रिया अघि बढाउन रु २०००० पठाउनुहोस्: [PHONE],scam,job,ne,viber,2026-09-26
+63,Tapai ko CV hamro company le select garyo. Job confirm garna registration fee Rs. 1800 tirnuhos: [PHONE],scam,job,roman,whatsapp,2026-09-26
+64,Remote Data Entry: तपाईंले Rs. 60000 per month earn गर्न सक्नुहुन्छ। Join गर्न deposit गर्नुहोस्: http://dataentry-nepal.live/join,scam,job,mixed,messenger,2026-09-26
+65,A foreign employer has approved your application. Pay documentation charges to receive your offer letter: http://foreign-job.live/offer,scam,job,en,email,2026-09-26
+66,तपाईंको अनलाइन शिक्षकको जागिर स्वीकृत भयो। तालिमका लागि रु ३००० बुझाउनुहोस्: [PHONE],scam,job,ne,other,2026-09-26
+67,Singapore ma warehouse job cha. Talab Rs. 200000 mahina ko. Form fee Rs. 5000 tirnuhos: [PHONE],scam,job,roman,sms,2026-09-26
+68,Ncell Vacancy: तपाईंलाई Sales Officer को role offer गरिएको छ। Joining confirm गर्न NPR 1500 pay गर्नुहोस्: [PHONE],scam,job,mixed,viber,2026-09-26
+69,Get a personal loan up to NPR 500000 with no collateral. Apply immediately: http://quickloan-nepal.live/apply,scam,loan,en,whatsapp,2026-09-26
+70,तपाईंको रु ३००००० ऋण स्वीकृत भएको छ। रकम पाउन पहिले रु ५००० प्रक्रिया शुल्क बुझाउनुहोस्: [PHONE],scam,loan,ne,messenger,2026-09-26
+71,Tapai lai bina dhito Rs. 500000 samma loan milchha. Apply garna yo link kholnuhos: http://loan-fast.live/apply,scam,loan,roman,email,2026-09-26
+72,Nabil Bank Loan Offer: तपाईंको NPR 400000 loan pre-approved छ। Processing fee pay गर्नुहोस्: http://nabil-loan.live/pay,scam,loan,mixed,other,2026-09-26
+73,Instant cash loan in 15 minutes. No documents or credit check required. Download now: http://instantcash-nepal.live/app,scam,loan,en,sms,2026-09-26
+74,तपाईंलाई कम ब्याजमा व्यवसाय ऋण उपलब्ध छ। आवेदन स्वीकृत गर्न रु २५०० पठाउनुहोस्: [PHONE],scam,loan,ne,viber,2026-09-26
+75,Tapai ko home loan approve bhayo. Paisa release garna insurance charge Rs. 7000 tirnuhos: [PHONE],scam,loan,roman,whatsapp,2026-09-26
+76,eSewa Loan Service: तपाईंले NPR 50000 तुरुन्त पाउनुहुन्छ। Account activate गर्न click गर्नुहोस्: http://esewa-loan.live/activate,scam,loan,mixed,messenger,2026-09-26
+77,Special education loan at 1 percent interest. Receive NPR 1000000 today after verification: http://edu-loan.live/verify,scam,loan,en,email,2026-09-26
+78,तपाईंको मोटरसाइकल ऋण स्वीकृत भयो। रकम पठाउन रु ३५०० अग्रिम शुल्क तिर्नुहोस्: [PHONE],scam,loan,ne,other,2026-09-26
+79,Tapai lai emergency loan Rs. 200000 30 minute bhitra milchha. Agent fee pathaunuhos: [PHONE],scam,loan,roman,sms,2026-09-26
+80,Siddhartha Bank message: तपाईंको loan application approved छ। Release charge NPR 4000 pay गर्नुहोस्: http://sbl-loan.live/release,scam,loan,mixed,viber,2026-09-26
+81,Your Daraz package is on hold. Pay NPR 450 customs fee to release it: http://daraz-track.live/release,scam,delivery,en,whatsapp,2026-09-26
+82,तपाईंको पार्सल भन्सारमा रोकिएको छ। डेलिभरीका लागि रु ३५० बुझाउनुहोस्: http://parcel-customs.live/pay,scam,delivery,ne,messenger,2026-09-26
+83,Tapai ko Nepal Post parcel return huna lagyo. Delivery fee tirnuhos: http://nepalpost-delivery.live/pay,scam,delivery,roman,email,2026-09-26
+84,Foodmandu Delivery Alert: तपाईंको order को payment failed भयो। Complete payment गर्नुहोस्: http://foodmandu-pay.live/order,scam,delivery,mixed,other,2026-09-26
+85,Your international shipment has arrived in Kathmandu. Pay customs duty to receive it: http://shipment-customs.live/pay,scam,delivery,en,sms,2026-09-26
+86,तपाईंको सस्तो डिलको सामान पठाउन रु २०० डेलिभरी शुल्क तिर्न बाँकी छ: [PHONE],scam,delivery,ne,viber,2026-09-26
+87,Tapai ko DHL parcel customs ma cha. Release garna Rs. 1200 tirnuhos: http://dhl-nepal.live/clear,scam,delivery,roman,whatsapp,2026-09-26
+88,Pathao Parcel: तपाईंको delivery attempt failed भयो। Redelivery fee NPR 150 pay गर्नुहोस्: http://pathao-redelivery.live/pay,scam,delivery,mixed,messenger,2026-09-26
+89,Your Amazon package is awaiting payment of a customs charge. Track and pay here: http://amazon-nepal.live/customs,scam,delivery,en,email,2026-09-26
+90,तपाईंको भोटभोटिको अर्डर फिर्ता हुन लागेको छ। रु १५० तिरेर अर्डर बचाउनुहोस्: http://bhotbhoti-order.live/save,scam,delivery,ne,other,2026-09-26
+91,Tapai ko FedEx document Kathmandu pugyo. Delivery charge Rs. 300 tirnuhos: http://fedex-doc.live/pay,scam,delivery,roman,sms,2026-09-26
+92,Daraz Refund: तपाईंको Rs. 2500 refund तयार छ। Bank details verify गर्न click गर्नुहोस्: http://daraz-refund.live/verify,scam,delivery,mixed,viber,2026-09-26
+93,Nepal Post notice: Your parcel needs an address correction fee before delivery: http://nepalpost-address.live/pay,scam,delivery,en,whatsapp,2026-09-26
+94,तपाईंको अन्तर्राष्ट्रिय सामान विमानस्थलमा आएको छ। भन्सार शुल्क रु ७५० तिर्नुहोस्: [PHONE],scam,delivery,ne,messenger,2026-09-26
+95,Tapai ko Pathao Food order confirm garna advance payment garnuhos: http://pathao-food.live/pay,scam,delivery,roman,email,2026-09-26
+96,SastoDeal Alert: तपाईंको package hold मा छ। Release गर्न NPR 250 payment गर्नुहोस्: http://sastodeal-hold.live/pay,scam,delivery,mixed,other,2026-09-26
+97,Hi this is your cousin in Australia. I lost my wallet and need NPR 50000 urgently. Send to [PHONE].,scam,impersonation,en,sms,2026-09-26
+98,म तपाईंको साथी हुँ। मेरो फोन हरायो र म समस्यामा छु। तुरुन्त रु ३०००० पठाइदिनुस्: [PHONE],scam,impersonation,ne,viber,2026-09-26
+99,Ma tapai ko [NAME] ho. Naya number bata boliraheko chu. Hospital ko lagi Rs. 40000 pathaideu: [PHONE],scam,impersonation,roman,whatsapp,2026-09-26
+100,Nepal Police Cyber Bureau: तपाईंको account fraud मा प्रयोग भएको छ। Fine NPR 10000 pay गर्नुहोस्: http://police-case.live/pay,scam,impersonation,mixed,messenger,2026-09-26
+101,This is your bank manager. Your account has been linked to money laundering. Verify now: http://bank-manager.live/verify,scam,impersonation,en,email,2026-09-26
+102,तपाईंको छोरा दुर्घटनामा परेको छ। उपचारका लागि तुरुन्त रु १००००० पठाउनुहोस्: [PHONE],scam,impersonation,ne,other,2026-09-26
+103,Ma tapai ko office ko colleague ho. Bidesh ma adkeko chu ticket ko lagi Rs. 35000 pathaideu: [PHONE],scam,impersonation,roman,sms,2026-09-26
+104,eSewa Customer Care: तपाईंको wallet hacked भएको छ। Secure your account अहिले: http://esewa-agent.live/reset,scam,impersonation,mixed,viber,2026-09-26
+105,This is Nepal Rastra Bank. Your accounts have been frozen for investigation. Pay a verification charge: http://nrb-case.live/verify,scam,impersonation,en,whatsapp,2026-09-26
+106,म तपाईंको छिमेकी हुँ। मेरो बच्चा बिरामी छ। अस्पतालका लागि रु २५००० तुरुन्त पठाउनुहोस्: [PHONE],scam,impersonation,ne,messenger,2026-09-26
+107,Yo tapai ko [NAME] ko sathi ho. U hospital ma chhe treatment ko lagi Rs. 60000 chaahiyo: [PHONE],scam,impersonation,roman,email,2026-09-26
+108,ConnectIPS Support: तपाईंको bank profile compromised छ। Reset password गर्न click गर्नुहोस्: http://connectips-reset.live/login,scam,impersonation,mixed,other,2026-09-26
+109,Nepal Telecom Authority notice: Your SIM number will be blocked unless you update your identity: http://nta-sim.live/update,scam,impersonation,en,sms,2026-09-26
+110,तपाईंको दिदीको गाडी दुर्घटना भएको छ। अस्पतालमा रकम चाहिएको छ रु ७५००० पठाउनुहोस्: [PHONE],scam,impersonation,ne,viber,2026-09-26
+111,Ma Nepal Police bata boliraheko chu. Tapai ko naam case ma cha fine tirnuhos: http://police-nepal.live/fine,scam,impersonation,roman,whatsapp,2026-09-26
+112,Khalti Fraud Team: तपाईंको account बाट suspicious transfer भयो। Verify immediately: http://khalti-fraud.live/secure,scam,impersonation,mixed,messenger,2026-09-26
+113,Your citizenship number has been used in a fraud case. File a report immediately: http://citizenship-case.live/report,scam,other,en,email,2026-09-26
+114,तपाईंको राष्ट्रिय परिचयपत्रको म्याद सकिएको छ। जरिवाना बचाउन तुरुन्त नवीकरण गर्नुहोस्: http://nid-renew.live/update,scam,other,ne,other,2026-09-26
+115,Tapai ko driving license suspend bhayo. Renew garna fine tirnuhos: http://license-renew.live/pay,scam,other,roman,sms,2026-09-26
+116,Nepal Electricity Authority: तपाईंको meter tampered भेटियो। NPR 5000 fine pay गर्नुहोस्: http://nea-fine.live/pay,scam,other,mixed,viber,2026-09-26
+117,IRD notice: Your tax payment is overdue. Pay immediately to avoid legal action: http://ird-tax.live/pay,scam,other,en,whatsapp,2026-09-26
+118,तपाईंको राहदानी आवेदनमा समस्या देखिएको छ। समाधानका लागि शुल्क तिर्नुहोस्: http://passport-help.live/pay,scam,other,ne,messenger,2026-09-26
+119,Tapai ko vehicle tax baaki cha. Legal action bata bachna Rs. 6000 tirnuhos: http://vehicle-tax.live/pay,scam,other,roman,email,2026-09-26
+120,Department of Immigration: तपाईंको visa expiry भएको छ। Renew now गर्न NPR 3000 pay गर्नुहोस्: http://visa-renew.live/pay,scam,other,mixed,other,2026-09-26
+121,Your social media account has been reported and will be deleted today. Appeal here: http://social-appeal.live/login,scam,other,en,sms,2026-09-26
+122,तपाईंको जग्गा कर बाँकी छ। कारबाही रोक्न रु १०००० तुरुन्त तिर्नुहोस्: [PHONE],scam,other,ne,viber,2026-09-26
+123,Tapai ko mobile number clone bhayo. Secure garna yo link kholnuhos: http://mobile-secure.live/check,scam,other,roman,whatsapp,2026-09-26
+124,Tribhuvan Airport Security: तपाईंको luggage suspicious छ। Clearance fee NPR 4500 pay गर्नुहोस्: http://tia-clearance.live/pay,scam,other,mixed,messenger,2026-09-26
+125,Your insurance claim has been approved. Pay a small release fee to receive the funds: http://insurance-claim.live/release,scam,other,en,email,2026-09-26
+126,तपाईंको पानीको धारा बन्द हुन लागेको छ। बिल तिर्न यहाँ जानुहोस्: http://water-bill.live/pay,scam,other,ne,other,2026-09-26
+127,Tapai ko passport renew garna baaki cha. Fine nalagos bhanera fee tirnuhos: [PHONE],scam,other,roman,sms,2026-09-26
+128,NRB Alert: तपाईंको transaction flagged भएको छ। Secure account गर्न click गर्नुहोस्: http://nrb-alert.live/secure,scam,other,mixed,viber,2026-09-26
+129,Congratulations you have been selected for a government cash support scheme. Register here: http://support-nepal.live/register,scam,prize,en,sms,2026-09-26
+130,बधाई छ! तपाईंले सरकारी राहत रकम पाउनुभएको छ। रकम लिन पहिले दर्ता शुल्क तिर्नुहोस्: [PHONE],scam,prize,ne,viber,2026-09-26
+131,Tapai le Rs. 20000 ko online reward jitnubhayo. Claim garna fee pathaunuhos: [PHONE],scam,prize,roman,whatsapp,2026-09-26
+132,Congratulations! तपाईंको number Ncell offer को winner हो। Gift receive गर्न NPR 500 pay गर्नुहोस्: http://ncell-reward.live/pay,scam,prize,mixed,messenger,2026-09-26
+133,Your bank account is eligible for a loyalty reward. Confirm your details at http://bank-loyalty.live/verify,scam,prize,en,sms,2026-09-26
+134,बधाई छ! तपाईंले रु ५०००० को मोबाइल उपहार जित्नुभएको छ। दाबी गर्न यहाँ जानुहोस्: http://mobile-prize.live/claim,scam,prize,ne,viber,2026-09-26
+135,Tapai le Khalti cashback jitnubhayo. Wallet verify garera Rs. 9000 lina saknuhunchha: http://khalti-cash.live/verify,scam,prize,roman,whatsapp,2026-09-26
+136,IME Pay Festival Bonus: तपाईंले NPR 15000 reward पाउनुभयो। Account verify गर्नुहोस्: http://ime-bonus.live/verify,scam,prize,mixed,messenger,2026-09-26
+137,Your wallet needs urgent security confirmation. Click to keep using your service: http://wallet-security.live/confirm,scam,bank_wallet,en,email,2026-09-26
+138,तपाईंको मोबाइल बैंकिङ सेवा बन्द हुने अवस्थामा छ। सेवा जारी राख्न विवरण अद्यावधिक गर्नुहोस्: http://bank-update.live/kyc,scam,bank_wallet,ne,other,2026-09-26
+139,Tapai ko ConnectIPS profile verify bhayena. 24 ghanta bhitra verify garnuhos: http://connectips-kyc.live/check,scam,bank_wallet,roman,sms,2026-09-26
+140,Global IME Bank Alert: तपाईंको account lock हुने छ। Update KYC now: http://globalime-kyc.live/update,scam,bank_wallet,mixed,viber,2026-09-26
+141,Your eSewa account was accessed from a new device. Confirm it immediately: http://esewa-device.live/confirm,scam,bank_wallet,en,whatsapp,2026-09-26
+142,तपाईंको खल्ती वालेटको सीमामा समस्या आएको छ। समाधानका लागि यहाँ क्लिक गर्नुहोस्: http://khalti-limit.live/fix,scam,bank_wallet,ne,messenger,2026-09-26
+143,Tapai ko Nabil mobile banking password expire bhayo. Change garna yo link kholnuhos: http://nabil-password.live/reset,scam,bank_wallet,roman,email,2026-09-26
+144,NIC Asia Support: तपाईंको account reactivation required छ। Login गरेर verify गर्नुहोस्: http://nic-reactivate.live/login,scam,bank_wallet,mixed,other,2026-09-26
+145,Please confirm your OTP 845619 to receive your pending refund. Reply to [PHONE].,scam,otp_request,en,sms,2026-09-26
+146,तपाईंको सुरक्षा कोड ९४२७६१ हो। खाता सुरक्षित गर्न यो कोड [PHONE] मा पठाउनुहोस्।,scam,otp_request,ne,viber,2026-09-26
+147,Tapai ko wallet OTP 718395 ho. Account unlock garna [PHONE] ma pathaunuhos.,scam,otp_request,roman,whatsapp,2026-09-26
+148,Bank Security: तपाईंको OTP 304928 छ। Fraud रोक्न agent लाई send गर्नुहोस्: [PHONE],scam,otp_request,mixed,messenger,2026-09-26
+149,Your OTP 682905 is required to process your cash reward. Send it to [PHONE].,scam,otp_request,en,email,2026-09-26
+150,तपाईंको प्रमाणीकरण कोड ५७३८२० हो। वालेट खोल्न यो कोड [PHONE] मा पठाउनुहोस्।,scam,otp_request,ne,other,2026-09-26
+151,Tapai ko IME Pay OTP 469281 ho. Bonus activate garna [PHONE] ma share garnuhos.,scam,otp_request,roman,sms,2026-09-26
+152,ConnectIPS urgent: OTP 918374 पठाउनुहोस् र account verification complete गर्नुहोस्: [PHONE],scam,otp_request,mixed,viber,2026-09-26
+153,Part time online work available. Earn NPR 40000 per month with no experience. Join: http://parttime-nepal.live/join,scam,job,en,whatsapp,2026-09-26
+154,तपाईंलाई विदेशमा होटलको जागिर उपलब्ध छ। भिसा प्रक्रियाका लागि रु १८००० पठाउनुहोस्: [PHONE],scam,job,ne,messenger,2026-09-26
+155,Tapai lai online translation job milchha. Training ko lagi Rs. 2500 tirnuhos: [PHONE],scam,job,roman,email,2026-09-26
+156,Khalti Hiring: तपाईंको application selected छ। Joining process का लागि NPR 2500 pay गर्नुहोस्: http://khalti-job.live/pay,scam,job,mixed,other,2026-09-26
+157,Earn from home by liking videos. Deposit NPR 1000 to activate your task account: http://task-income.live/activate,scam,job,en,sms,2026-09-26
+158,काठमाडौंको कार्यालयमा तत्काल कर्मचारी चाहियो। अन्तर्वार्ता बिना नियुक्ति हुनेछ। दर्ता शुल्क पठाउनुहोस्: [PHONE],scam,job,ne,viber,2026-09-26
+159,Tapai ko profile bank ma officer ko lagi select bhayo. Confirm garna Rs. 3000 tirnuhos: [PHONE],scam,job,roman,whatsapp,2026-09-26
+160,Remote Job Offer: तपाईंले Rs. 55000 per month कमाउन सक्नुहुन्छ। Registration fee pay गर्नुहोस्: http://remote-job.live/register,scam,job,mixed,messenger,2026-09-26
+161,You qualify for an emergency loan of NPR 200000. Pay the approval fee to receive it: http://emergency-loan.live/pay,scam,loan,en,email,2026-09-26
+162,तपाईंलाई बिना धितो रु ५००००० सम्म ऋण मिल्छ। आवेदन शुल्क बुझाउनुस्: [PHONE],scam,loan,ne,other,2026-09-26
+163,Tapai ko business loan pass bhayo. Paisa release garna Rs. 6000 processing fee tirnuhos: [PHONE],scam,loan,roman,sms,2026-09-26
+164,Himalayan Bank Loan: तपाईंको NPR 700000 pre approval छ। Document charge pay गर्नुहोस्: http://hbl-loan.live/pay,scam,loan,mixed,viber,2026-09-26
+165,Low interest personal loans are available today. Get cash without paperwork: http://easy-loan.live/start,scam,loan,en,whatsapp,2026-09-26
+166,तपाईंको घर ऋण पास भएको छ। रकम जम्मा गर्न पहिले बीमा शुल्क रु ८००० पठाउनुहोस्: [PHONE],scam,loan,ne,messenger,2026-09-26
+167,Tapai lai education loan Rs. 1000000 samma milchha. File charge Rs. 4000 tirnuhos: [PHONE],scam,loan,roman,email,2026-09-26
+168,Quick Loan Nepal: तपाईंको Rs. 80000 instant cash ready छ। Activation fee NPR 1200 pay गर्नुहोस्: http://quick-cash.live/activate,scam,loan,mixed,other,2026-09-26
+169,Your delivery is waiting because the address is incomplete. Update and pay a service fee: http://delivery-address.live/update,scam,delivery,en,sms,2026-09-26
+170,तपाईंको दराज पार्सल पठाउन रु ३०० भन्सार शुल्क तिर्न बाँकी छ। यहाँ क्लिक गर्नुहोस्: http://daraz-customs.live/pay,scam,delivery,ne,viber,2026-09-26
+171,Tapai ko package receive garna delivery fee Rs. 250 online tirnuhos: http://package-pay.live/delivery,scam,delivery,roman,whatsapp,2026-09-26
+172,DHL Notice: तपाईंको parcel customs मा छ। Release गर्न NPR 950 payment गर्नुहोस्: http://dhl-release.live/pay,scam,delivery,mixed,messenger,2026-09-26
+173,Your courier will be returned within 24 hours unless you pay the delivery charge: http://courier-return.live/pay,scam,delivery,en,email,2026-09-26
+174,तपाईंको खाना अर्डरको रकम असफल भएको छ। अर्डर पाउन रकम बुझाउनुहोस्: http://food-order.live/pay,scam,delivery,ne,other,2026-09-26
+175,Tapai ko international parcel customs ma adkeko cha. Rs. 850 tirnuhos: [PHONE],scam,delivery,roman,sms,2026-09-26
+176,Amazon Nepal Delivery: तपाईंको package ready छ। Customs NPR 600 pay गरेर receive गर्नुहोस्: http://amazon-package.live/pay,scam,delivery,mixed,viber,2026-09-26
+177,Hello I am your friend using a new number. I need urgent financial help. Send NPR 20000 to [PHONE].,scam,impersonation,en,whatsapp,2026-09-26
+178,म तपाईंको भाइ बोल्दै छु। मेरो मोबाइल बिग्रियो यो नयाँ नम्बर हो। तुरुन्त रु १५००० पठाइदिनुस्: [PHONE],scam,impersonation,ne,messenger,2026-09-26
+179,Ma tapai ko mama ho. Emergency paryo Rs. 70000 yo number ma pathaideu: [PHONE],scam,impersonation,roman,email,2026-09-26
+180,Nepal Police Alert: तपाईंको citizenship fraud case मा प्रयोग भएको छ। Fine pay गर्नुहोस्: http://police-nepal.live/case,scam,impersonation,mixed,other,2026-09-26
+181,This is a representative from your bank. We need your details to stop an unauthorized transaction: http://bank-agent.live/secure,scam,impersonation,en,sms,2026-09-26
+182,तपाईंको साथी विदेशमा फसेको छ। फर्कनका लागि तुरुन्त रु ४५००० पठाउनुहोस्: [PHONE],scam,impersonation,ne,viber,2026-09-26
+183,Ma tapai ko bank ko manager ho. Account secure garna yo link kholnuhos: http://manager-bank.live/login,scam,impersonation,roman,whatsapp,2026-09-26
+184,NRB Officer speaking: तपाईंको account investigation मा छ। Verify your identity now: http://nrb-officer.live/verify,scam,impersonation,mixed,messenger,2026-09-26
+185,Your electricity connection will be disconnected tonight unless you pay the pending bill: http://nea-bill.live/pay,scam,other,en,email,2026-09-26
+186,तपाईंको सिम कार्डको विवरण नवीकरण हुन बाँकी छ। बन्द हुनबाट जोगाउन यहाँ क्लिक गर्नुहोस्: http://sim-kyc.live/update,scam,other,ne,other,2026-09-26
+187,Tapai ko social media account report bhayo. Delete huna bata bachna appeal garnuhos: http://social-help.live/appeal,scam,other,roman,sms,2026-09-26
+188,IRD Tax Alert: तपाईंको PAN payment overdue छ। Avoid penalty pay now: http://pan-tax.live/pay,scam,other,mixed,viber,2026-09-26
+189,Your passport has been flagged for a documentation problem. Resolve it online: http://passport-status.live/fix,scam,other,en,whatsapp,2026-09-26
+190,तपाईंको सवारी कर तिर्न बाँकी छ। जरिवाना रोक्न आजै तिर्नुहोस्: [PHONE],scam,other,ne,messenger,2026-09-26
+191,Tapai ko property tax baaki cha. Legal action rokna fee tirnuhos: http://property-tax.live/pay,scam,other,roman,email,2026-09-26
+192,Nepal Water Supply: तपाईंको connection काटिने छ। Bill NPR 1200 pay गर्नुहोस्: http://water-connection.live/pay,scam,other,mixed,other,2026-09-26
+196,Special Offer: तपाईंले eSewa मा NPR 7500 cashback जित्नुभयो। Verify and claim: http://esewa-offer.live/claim,scam,prize,mixed,messenger,2026-09-26
+197,Your OTP is 294760. Send it to [PHONE] to complete your bank account upgrade.,scam,otp_request,en,email,2026-09-26
+198,तपाईंको बैंक खाताको कोड ८६३९२४ हो। खाता अपडेट गर्न यो कोड [PHONE] मा पठाउनुहोस्।,scam,otp_request,ne,other,2026-09-26
+199,Tapai ko verification OTP 504871 ho. Refund lina [PHONE] ma pathaunuhos.,scam,otp_request,roman,sms,2026-09-26
+200,Khalti Account Alert: OTP 739165 पठाएर आफ्नो wallet verification complete गर्नुहोस्: [PHONE],scam,otp_request,mixed,viber,2026-09-26
+201,Your eSewa payment of NPR 500 to Merchant Store was successful. View receipt: https://esewa.com.np/receipt/TXN-847291,legit,bank_wallet,en,sms,2026-09-26
+202,तपाईंको खल्तीबाट रु ३५० को मोबाइल रिचार्ज सफल भयो। विवरण एपमा हेर्नुहोस्।,legit,bank_wallet,ne,viber,2026-09-26
+203,Tapai ko ConnectIPS bata Rs. 1200 ko payment safal bhayo. Reference: CIPS-629481.,legit,bank_wallet,roman,whatsapp,2026-09-26
+204,"Nabil Bank: तपाईंको account मा NPR 25,000 credit भएको छ। Statement: https://nepalbank.com.np/statement/NBL-731942",legit,bank_wallet,mixed,messenger,2026-09-26
+205,"Your NIC Asia mobile banking transfer of NPR 2,000 was completed successfully.",legit,bank_wallet,en,email,2026-09-26
+206,"तपाईंको IME Pay खातामा रु १,५०० प्राप्त भएको छ। कारोबार विवरण एपमा हेर्नुहोस्।",legit,bank_wallet,ne,other,2026-09-26
+207,Tapai ko eSewa wallet ma Rs. 300 load bhayo. Balance check garna eSewa app kholnuhos.,legit,bank_wallet,roman,sms,2026-09-26
+208,Khalti सूचना: तपाईंको wallet बाट NPR 980 को electricity bill payment सफल भयो।,legit,bank_wallet,mixed,viber,2026-09-26
+209,"Your Nepal Bank account has been credited with NPR 10,000. Please check your account statement for details.",legit,bank_wallet,en,whatsapp,2026-09-26
+210,"तपाईंको ConnectIPS मार्फत गरिएको रु २,५०० को भुक्तानी सफल भएको छ। Details: https://connectips.com/payment/CIPS-518293",legit,bank_wallet,ne,messenger,2026-09-26
+211,Tapai ko IME Pay bata Rs. 750 ko topup successful bhayo. Thank you for using IME Pay.,legit,bank_wallet,roman,email,2026-09-26
+212,"Siddhartha Bank: तपाईंको account बाट NPR 4,200 debit भएको छ। विवरण mobile banking मा हेर्नुहोस्।",legit,bank_wallet,mixed,other,2026-09-26
+213,Your Prabhu Bank account balance inquiry request has been processed successfully.,legit,bank_wallet,en,sms,2026-09-26
+214,"तपाईंको बैंक खातामा रु ५,००० जम्मा भएको छ। थप विवरणका लागि मोबाइल बैंकिङ हेर्नुहोस्।",legit,bank_wallet,ne,viber,2026-09-26
+215,Tapai ko Khalti cashout request receive bhayo. Processing pachi wallet balance update hunchha.,legit,bank_wallet,roman,whatsapp,2026-09-26
+216,"eSewa: तपाईंको NPR 1,000 load money request सफल भयो। Updated balance app मा हेर्नुहोस्।",legit,bank_wallet,mixed,messenger,2026-09-26
+217,Your Global IME Bank transfer has been submitted. You will receive a confirmation after processing.,legit,bank_wallet,en,email,2026-09-26
+218,तपाईंको मोबाइल बैंकिङ पासवर्ड सफलतापूर्वक परिवर्तन भएको छ।,legit,bank_wallet,ne,other,2026-09-26
+219,Tapai ko wallet KYC verification request receive bhayo. Review complete bhayepachi notification aauchha.,legit,bank_wallet,roman,sms,2026-09-26
+220,"Nepal Bank alert: तपाईंले NPR 1,250 को QR payment गर्नुभयो। Transaction successful.",legit,bank_wallet,mixed,viber,2026-09-26
+221,Your OTP for login is 482915. Do not share this code with anyone.,legit,otp_request,en,sms,2026-09-26
+222,तपाईंको eSewa लगइन प्रमाणीकरण कोड ७२९४८१ हो। यो कोड कसैलाई नदिनुहोस्।,legit,otp_request,ne,viber,2026-09-26
+223,Tapai ko Khalti login OTP 583742 ho. Yo code kasailai nadinuhos.,legit,otp_request,roman,whatsapp,2026-09-26
+224,Nabil Bank OTP: 493816। यो code mobile banking login का लागि मात्र प्रयोग गर्नुहोस्।,legit,otp_request,mixed,messenger,2026-09-26
+225,Your ConnectIPS verification code is 671294. It expires in 5 minutes. Never share it.,legit,otp_request,en,email,2026-09-26
+226,तपाईंको IME Pay प्रमाणीकरण कोड ८४७२६१ हो। कोडको म्याद ५ मिनेटपछि सकिन्छ।,legit,otp_request,ne,other,2026-09-26
+227,Tapai ko bank login OTP 295837 ho. Yo code 5 minute samma matra valid chha.,legit,otp_request,roman,sms,2026-09-26
+228,eSewa Login OTP: 764921। आफ्नो account सुरक्षित राख्न यो code share नगर्नुहोस्।,legit,otp_request,mixed,viber,2026-09-26
+229,Your Himalayan Bank transaction OTP is 308652. Use it only to authorize the transaction you initiated.,legit,otp_request,en,whatsapp,2026-09-26
+230,तपाईंको वालेट प्रमाणीकरण कोड ६१५९२८ हो। तपाईंले अनुरोध नगरेको भए यो सन्देश बेवास्ता गर्नुहोस्।,legit,otp_request,ne,messenger,2026-09-26
+231,Tapai ko Prabhu Bank OTP 849361 ho. OTP share nagarnuhos.,legit,otp_request,roman,email,2026-09-26
+232,"Khalti OTP: 217684। यो code transaction authorize गर्नका लागि हो, कसैलाई पठाउनु हुँदैन।",legit,otp_request,mixed,other,2026-09-26
+233,Your bank OTP is 956203. Please enter it only in the official banking app.,legit,otp_request,en,sms,2026-09-26
+234,तपाईंको मोबाइल बैंकिङ कोड ४६३८९२ हो। आधिकारिक एपमा मात्र प्रयोग गर्नुहोस्।,legit,otp_request,ne,viber,2026-09-26
+235,Tapai ko eSewa verification code 730518 ho. Official eSewa app ma matra use garnuhos.,legit,otp_request,roman,whatsapp,2026-09-26
+236,IME Pay OTP 682174। तपाईंले login request गर्नुभएको हो भने मात्र verify गर्नुहोस्।,legit,otp_request,mixed,messenger,2026-09-26
+237,Your NTC prepaid recharge of NPR 100 was successful. Check your balance by sending VL to 1415.,legit,other,en,sms,2026-09-26
+238,तपाईंको नेपाल टेलिकम नम्बरमा रु २०० रिचार्ज सफल भयो। धन्यवाद।,legit,other,ne,viber,2026-09-26
+239,Tapai ko Ncell number ma Rs. 299 ko data pack activate bhayo. Validity app ma check garnuhos.,legit,other,roman,whatsapp,2026-09-26
+240,Nepal Telecom: तपाईंको NPR 50 balance transfer request सफल भयो। Updated balance check गर्नुहोस्।,legit,other,mixed,messenger,2026-09-26
+241,Your Ncell data pack is active. Check the remaining data and validity through the Ncell App.,legit,other,en,email,2026-09-26
+242,तपाईंको मोबाइल डेटा प्याक भोलि समाप्त हुँदैछ। आवश्यक परे नयाँ प्याक लिनुहोस्।,legit,other,ne,other,2026-09-26
+243,Tapai ko NTC recharge successful bhayo. Balance herna VL type garera 1415 ma SMS pathaunuhos.,legit,other,roman,sms,2026-09-26
+244,Ncell सूचना: तपाईंको data pack आज राति 12 बजे समाप्त हुन्छ। Renew गर्न Ncell App प्रयोग गर्नुहोस्।,legit,other,mixed,viber,2026-09-26
+245,Your Nepal Telecom subscription request has been received and is being processed.,legit,other,en,whatsapp,2026-09-26
+246,तपाईंको मोबाइल नम्बरमा नयाँ भ्वाइस प्याक सक्रिय भएको छ।,legit,other,ne,messenger,2026-09-26
+247,Tapai ko Ncell recharge Rs. 1000 safal bhayo. Balance update bhayeko chha.,legit,other,roman,email,2026-09-26
+248,Nepal Telecom: तपाईंको SIM registration details updated भए। Thank you.,legit,other,mixed,other,2026-09-26
+249,Your NTC mobile balance is low. Recharge using the Nepal Telecom App or authorized channels.,legit,other,en,sms,2026-09-26
+250,तपाईंको Ncell सेवा शुल्क सफलतापूर्वक कट्टा भएको छ। विवरण एपमा हेर्नुहोस्।,legit,other,ne,viber,2026-09-26
+251,Tapai ko order from Daraz has been confirmed. Order details app ma hernuhos.,legit,delivery,roman,whatsapp,2026-09-26
+252,Daraz: तपाईंको अर्डर सफलतापूर्वक राखिएको छ। अनुमानित डेलिभरी मिति एपमा हेर्नुहोस्।,legit,delivery,ne,messenger,2026-09-26
+253,Your Foodmandu order has been accepted by the restaurant. Track it in the Foodmandu app.,legit,delivery,en,email,2026-09-26
+254,Pathao Food: तपाईंको order तयार हुँदैछ। Rider assigned भएपछि notification आउँछ।,legit,delivery,mixed,other,2026-09-26
+255,Your package has been picked up by the courier. Delivery updates will be sent through the official app.,legit,delivery,en,sms,2026-09-26
+256,तपाईंको पार्सल वितरणका लागि पठाइएको छ। प्राप्त गर्दा सामान जाँच गर्नुहोस्।,legit,delivery,ne,viber,2026-09-26
+257,Tapai ko Daraz parcel delivery ko lagi out for delivery bhayo. Rider ko call auna sakchha.,legit,delivery,roman,whatsapp,2026-09-26
+258,Foodmandu: तपाईंको order delivered भयो। कुनै समस्या भए support section बाट सम्पर्क गर्नुहोस्।,legit,delivery,mixed,messenger,2026-09-26
+259,Your SastoDeal order has been dispatched. Track the shipment in your account.,legit,delivery,en,email,2026-09-26
+260,तपाईंको पठाओ पार्सल सफलतापूर्वक वितरण भएको छ। धन्यवाद।,legit,delivery,ne,other,2026-09-26
+261,Tapai ko grocery order pack bhairako chha. Delivery time app ma update hunchha.,legit,delivery,roman,sms,2026-09-26
+262,Daraz Update: तपाईंको package sorting center मा पुगेको छ। Track गर्न Daraz app खोल्नुहोस्।,legit,delivery,mixed,viber,2026-09-26
+263,Your order cancellation request has been received. Refund status will appear in the app after processing.,legit,delivery,en,whatsapp,2026-09-26
+264,तपाईंको अर्डरको फिर्ता रकम प्रक्रिया सुरु भएको छ। रकम खातामा आएपछि सूचना प्राप्त हुनेछ।,legit,delivery,ne,messenger,2026-09-26
+265,Tapai ko return request receive bhayo. Pickup schedule app bata check garnuhos.,legit,delivery,roman,email,2026-09-26
+266,Pathao Parcel: तपाईंको delivery address updated भयो। कृपया app मा details confirm गर्नुहोस्।,legit,delivery,mixed,other,2026-09-26
+267,Thank you for shopping with us. Your order invoice is available in your account.,legit,delivery,en,sms,2026-09-26
+268,तपाईंको अर्डरका सबै वस्तुहरू सफलतापूर्वक प्राप्त भएको पुष्टि भएको छ।,legit,delivery,ne,viber,2026-09-26
+269,Tapai ko online application successfully submit bhayo. Application status portal ma hernuhos.,legit,job,roman,whatsapp,2026-09-26
+270,तपाईंको रोजगारी आवेदन प्राप्त भएको छ। छनोट प्रक्रियाबारे पछि जानकारी दिइनेछ।,legit,job,ne,messenger,2026-09-26
+271,Thank you for applying. Your application has been received and is under review.,legit,job,en,email,2026-09-26
+272,Job Portal सूचना: तपाईंको profile successfully update भयो। नयाँ vacancies हेर्न app खोल्नुहोस्।,legit,job,mixed,other,2026-09-26
+273,Your interview has been scheduled. Please check the official email or employer portal for time and location.,legit,job,en,sms,2026-09-26
+274,तपाईंको अन्तर्वार्ता अनुरोध प्राप्त भएको छ। समय र स्थानका लागि आधिकारिक पोर्टल हेर्नुहोस्।,legit,job,ne,viber,2026-09-26
+275,Tapai ko CV successfully upload bhayo. Job updates ko lagi portal check garnuhos.,legit,job,roman,whatsapp,2026-09-26
+276,Recruitment Update: तपाईंको application shortlist review मा छ। Further update email मा पठाइनेछ।,legit,job,mixed,messenger,2026-09-26
+277,Your job-alert subscription is active. You will receive vacancy notifications based on your selected preferences.,legit,job,en,email,2026-09-26
+278,तपाईंले रोजगारी सूचना सेवा सफलतापूर्वक सदस्यता लिनुभएको छ।,legit,job,ne,other,2026-09-26
+279,Tapai le job portal ko password reset request garnubhayo. Reset garna official app use garnuhos.,legit,job,roman,sms,2026-09-26
+280,Employer Portal: तपाईंको application मा document missing छ। कृपया official portal मा upload गर्नुहोस्।,legit,job,mixed,viber,2026-09-26
+281,"Your loan EMI of NPR 8,500 is due on the scheduled date. Please maintain sufficient account balance.",legit,loan,en,whatsapp,2026-09-26
+282,"तपाईंको ऋणको मासिक किस्ता रु ५,००० नियत मितिमा तिर्न बाँकी छ।",legit,loan,ne,messenger,2026-09-26
+283,Tapai ko loan installment payment receive bhayo. Updated loan balance app ma hernuhos.,legit,loan,roman,email,2026-09-26
+284,"NIC Asia Loan Alert: तपाईंको EMI NPR 12,000 सफलतापूर्वक receive भयो।",legit,loan,mixed,other,2026-09-26
+285,Your loan application has been received. The bank will contact you through official channels after review.,legit,loan,en,sms,2026-09-26
+286,तपाईंको ऋण आवेदन प्राप्त भएको छ। आवश्यक कागजातबारे बैंकले जानकारी दिनेछ।,legit,loan,ne,viber,2026-09-26
+287,Tapai ko loan statement ready chha. Mobile banking bata download garnuhos.,legit,loan,roman,whatsapp,2026-09-26
+288,Prabhu Bank: तपाईंको loan account को interest rate update भएको छ। Details app मा हेर्नुहोस्।,legit,loan,mixed,messenger,2026-09-26
+289,Your loan repayment has been posted successfully. Reference: LN-583902.,legit,loan,en,email,2026-09-26
+290,तपाईंको ऋण खाताको विवरण तयार छ। मोबाइल बैंकिङबाट हेर्नुहोस्।,legit,loan,ne,other,2026-09-26
+291,Tapai ko EMI auto-debit successful bhayo. Thank you.,legit,loan,roman,sms,2026-09-26
+292,"Nabil Bank Loan: तपाईंको NPR 9,000 EMI payment successful भयो।",legit,loan,mixed,viber,2026-09-26
+293,Your bank account statement for the requested period is ready in the mobile banking app.,legit,bank_wallet,en,whatsapp,2026-09-26
+294,तपाईंको खाताको मिनी स्टेटमेन्ट अनुरोध सफल भयो। मोबाइल बैंकिङमा हेर्नुहोस्।,legit,bank_wallet,ne,messenger,2026-09-26
+295,Tapai ko debit card transaction of Rs. 1500 successful bhayo. Details app ma hernuhos.,legit,bank_wallet,roman,email,2026-09-26
+296,"Global IME Bank: तपाईंको card बाट NPR 2,300 payment successful भयो।",legit,bank_wallet,mixed,other,2026-09-26
+297,Your cheque book request has been received. You will be notified when it is ready for collection.,legit,bank_wallet,en,sms,2026-09-26
+298,तपाईंको नयाँ डेबिट कार्ड अनुरोध प्राप्त भएको छ। तयार भएपछि सूचना दिइनेछ।,legit,bank_wallet,ne,viber,2026-09-26
+299,Tapai ko mobile banking registration successful bhayo. First login ko lagi official app use garnuhos.,legit,bank_wallet,roman,whatsapp,2026-09-26
+300,ConnectIPS Notice: तपाईंको bank account successfully linked भयो।,legit,bank_wallet,mixed,messenger,2026-09-26
+301,"Your eSewa bill payment of NPR 1,250 was successful. Receipt is available in the app.",legit,bank_wallet,en,email,2026-09-26
+302,तपाईंको खल्तीबाट इन्टरनेट बिल भुक्तानी सफल भएको छ। रसिद एपमा उपलब्ध छ।,legit,bank_wallet,ne,other,2026-09-26
+303,Tapai ko wallet bata Rs. 450 ko water bill payment successful bhayo.,legit,bank_wallet,roman,sms,2026-09-26
+304,IME Pay: तपाईंको NPR 600 electricity payment complete भयो। Transaction history check गर्नुहोस्।,legit,bank_wallet,mixed,viber,2026-09-26
+305,Your wallet-to-bank transfer has been completed successfully.,legit,bank_wallet,en,whatsapp,2026-09-26
+306,तपाईंको बैंकबाट वालेटमा रकम सफलतापूर्वक पठाइएको छ।,legit,bank_wallet,ne,messenger,2026-09-26
+307,Tapai ko bank transfer request process bhairako chha. Complete bhayepachi notification aauchha.,legit,bank_wallet,roman,email,2026-09-26
+308,eSewa Notice: तपाईंको transaction reversed भयो। Amount wallet balance मा reflect हुनेछ।,legit,bank_wallet,mixed,other,2026-09-26
+309,Your refund of NPR 850 has been initiated. It may take time to reflect in your payment account.,legit,bank_wallet,en,sms,2026-09-26
+310,तपाईंको फिर्ता रकम प्रक्रिया भइरहेको छ। रकम खातामा आएपछि सूचना प्राप्त हुनेछ।,legit,bank_wallet,ne,viber,2026-09-26
+311,Tapai ko Khalti refund request approved bhayo. Amount processing pachi wallet ma aauchha.,legit,bank_wallet,roman,whatsapp,2026-09-26
+312,"ConnectIPS Update: तपाईंको NPR 1,800 payment reversed भयो। Balance केही समयपछि update हुन्छ।",legit,bank_wallet,mixed,messenger,2026-09-26
+313,"Your electricity bill payment is due soon. Please pay through the official NEA app, bank, or authorized wallet.",legit,other,en,email,2026-09-26
+314,तपाईंको खानेपानीको बिल तिर्ने म्याद नजिकिँदैछ। आधिकारिक माध्यमबाट भुक्तानी गर्नुहोस्।,legit,other,ne,other,2026-09-26
+315,Tapai ko internet subscription renewal date najik cha. Official ISP app bata renew garnuhos.,legit,other,roman,sms,2026-09-26
+316,NEA Notice: तपाईंको electricity bill payment due छ। Official counter वा app बाट pay गर्नुहोस्।,legit,other,mixed,viber,2026-09-26
+317,Your insurance premium payment reminder: please use the insurer's official portal or branch for payment.,legit,other,en,whatsapp,2026-09-26
+318,तपाईंको सवारी कर नवीकरणको मिति नजिकिँदैछ। आधिकारिक यातायात कार्यालयको सेवा प्रयोग गर्नुहोस्।,legit,other,ne,messenger,2026-09-26
+319,Tapai ko passport appointment confirmation receive bhayo. Appointment details official portal ma hernuhos.,legit,other,roman,email,2026-09-26
+320,Government Service Update: तपाईंको application submitted छ। Status official portal मा check गर्नुहोस्।,legit,other,mixed,other,2026-09-26
+321,Your Nepal Telecom balance inquiry request was received. Follow the official SMS syntax for service details.,legit,other,en,sms,2026-09-26
+322,तपाईंको राष्ट्रिय परिचयपत्र आवेदनको स्थिति अद्यावधिक भएको छ। आधिकारिक पोर्टलमा हेर्नुहोस्।,legit,other,ne,viber,2026-09-26
+323,Tapai ko driving license renewal application submit bhayo. Status portal ma check garnuhos.,legit,other,roman,whatsapp,2026-09-26
+324,Public Service Notice: तपाईंको document verification status updated छ। Official website मा हेर्नुहोस्।,legit,other,mixed,messenger,2026-09-26
+325,Your PAN registration request has been received. Updates will be available through the official tax portal.,legit,other,en,email,2026-09-26
+326,तपाईंको बीमा दाबी अनुरोध प्राप्त भएको छ। थप जानकारीका लागि बीमा कम्पनीको आधिकारिक शाखामा सम्पर्क गर्नुहोस्।,legit,other,ne,other,2026-09-26
+327,Tapai ko airline booking confirmed bhayo. Ticket details official app ma hernuhos.,legit,other,roman,sms,2026-09-26
+328,Nepal Airlines Update: तपाईंको booking confirmation उपलब्ध छ। Ticket details app मा हेर्नुहोस्।,legit,other,mixed,viber,2026-09-26
+329,Your Daraz order payment was successful. The invoice is available in the Daraz app.,legit,delivery,en,whatsapp,2026-09-26
+330,तपाईंको खाना अर्डरको भुक्तानी सफल भयो। रेस्टुरेन्टले अर्डर स्वीकारेपछि जानकारी दिइनेछ।,legit,delivery,ne,messenger,2026-09-26
+331,Tapai ko Pathao ride complete bhayo. Fare payment history app ma hernuhos.,legit,delivery,roman,email,2026-09-26
+332,Foodmandu Update: तपाईंको order को refund NPR 300 process भयो। App मा status check गर्नुहोस्।,legit,delivery,mixed,other,2026-09-26
+333,Your parcel delivery has been rescheduled. Check the official courier app for the revised date.,legit,delivery,en,sms,2026-09-26
+334,तपाईंको अर्डरको वितरण मिति परिवर्तन भएको छ। एपमा नयाँ मिति हेर्नुहोस्।,legit,delivery,ne,viber,2026-09-26
+335,Tapai ko package delivery address confirm bhayo. Delivery update ko lagi app check garnuhos.,legit,delivery,roman,whatsapp,2026-09-26
+336,Daraz Notice: तपाईंको parcel delivery attempt भयो। Next update app मा हेर्नुहोस्।,legit,delivery,mixed,messenger,2026-09-26
+337,"Your merchant payment of NPR 2,400 through eSewa was completed. Please retain the receipt.",legit,bank_wallet,en,email,2026-09-26
+338,तपाईंको खल्तीबाट रु ८०० को QR भुक्तानी सफल भयो। कारोबार इतिहास हेर्नुहोस्।,legit,bank_wallet,ne,other,2026-09-26
+339,Tapai ko ConnectIPS transaction complete bhayo. Reference details mobile banking ma available chha.,legit,bank_wallet,roman,sms,2026-09-26
+340,"Nepal Bank: तपाईंको NPR 6,500 fund transfer successful भयो।",legit,bank_wallet,mixed,viber,2026-09-26
+341,Your mobile banking beneficiary has been added successfully. Use the official app to review details.,legit,bank_wallet,en,whatsapp,2026-09-26
+342,तपाईंको मोबाइल बैंकिङ लाभग्राही सफलतापूर्वक थपिएको छ। विवरण एपमा हेर्नुहोस्।,legit,bank_wallet,ne,messenger,2026-09-26
+343,Tapai ko card pin change request successful bhayo. Card security ko lagi PIN kasailai nabhannu hos.,legit,bank_wallet,roman,email,2026-09-26
+344,Card Security Alert: तपाईंको debit card PIN successfully change भयो।,legit,bank_wallet,mixed,other,2026-09-26
+345,"Your bank login password was changed successfully. If this was not you, contact your bank using official channels.",legit,bank_wallet,en,sms,2026-09-26
+346,तपाईंको बैंकिङ पासवर्ड परिवर्तन भएको छ। तपाईंले नगरेको भए आधिकारिक बैंक शाखा वा सहयोग केन्द्रमा सम्पर्क गर्नुहोस्।,legit,bank_wallet,ne,viber,2026-09-26
+347,Tapai ko eSewa password reset request complete bhayo. Login garna official app use garnuhos.,legit,bank_wallet,roman,whatsapp,2026-09-26
+348,Khalti Security: तपाईंको account password reset भयो। Unauthorized भए official support मा सम्पर्क गर्नुहोस्।,legit,bank_wallet,mixed,messenger,2026-09-26
+349,Your mobile recharge of NPR 200 was successful. Thank you for using our service.,legit,other,en,email,2026-09-26
+350,तपाईंको मोबाइल नम्बरमा रु १०० रिचार्ज सफल भएको छ।,legit,other,ne,other,2026-09-26
+351,Tapai ko NTC data pack activate bhayo. Remaining data herna official app use garnuhos.,legit,other,roman,sms,2026-09-26
+352,Ncell Update: तपाईंको voice pack successfully activate भयो। Validity app मा हेर्नुहोस्।,legit,other,mixed,viber,2026-09-26
+353,Your payment receipt has been emailed to your registered email address.,legit,bank_wallet,en,whatsapp,2026-09-26
+354,तपाईंको भुक्तानीको रसिद तपाईंको दर्ता गरिएको इमेलमा पठाइएको छ।,legit,bank_wallet,ne,messenger,2026-09-26
+355,Tapai ko bill payment receipt wallet app ma available chha.,legit,bank_wallet,roman,email,2026-09-26
+356,eSewa Receipt: तपाईंको transaction सफल भयो। Receipt app बाट download गर्नुहोस्।,legit,bank_wallet,mixed,other,2026-09-26
+357,Your account has been successfully verified. You can continue using the service.,legit,bank_wallet,en,sms,2026-09-26
+358,तपाईंको वालेट खाता सफलतापूर्वक प्रमाणीकरण भएको छ।,legit,bank_wallet,ne,viber,2026-09-26
+359,Tapai ko KYC document receive bhayo. Review pachi status update hunchha.,legit,bank_wallet,roman,whatsapp,2026-09-26
+360,Wallet KYC Update: तपाईंको document review मा छ। Result app मा देखाइनेछ।,legit,bank_wallet,mixed,messenger,2026-09-26
+361,Your flight booking request has been received. Check the airline's official app for confirmation.,legit,other,en,email,2026-09-26
+362,तपाईंको बस टिकट बुकिङ सफलतापूर्वक गरिएको छ। यात्रा विवरण एपमा हेर्नुहोस्।,legit,other,ne,other,2026-09-26
+363,Tapai ko movie ticket booking successful bhayo. QR ticket app ma available chha.,legit,other,roman,sms,2026-09-26
+364,Ticket Update: तपाईंको event booking confirm भयो। Entry details official app मा हेर्नुहोस्।,legit,other,mixed,viber,2026-09-26
+365,Your utility payment request is being processed. Confirmation will be sent after completion.,legit,bank_wallet,en,whatsapp,2026-09-26
+366,तपाईंको टेलिफोन बिल भुक्तानी प्रक्रिया भइरहेको छ। सफल भएपछि सूचना आउनेछ।,legit,bank_wallet,ne,messenger,2026-09-26
+367,Tapai ko internet bill payment processing ma chha. Receipt ready bhayepachi notification aauchha.,legit,bank_wallet,roman,email,2026-09-26
+368,Khalti Update: तपाईंको water bill payment processing मा छ। Status app मा हेर्नुहोस्।,legit,bank_wallet,mixed,other,2026-09-26
+369,Your account has been credited with a cashback amount. Check the official app for transaction details.,legit,bank_wallet,en,sms,2026-09-26
+370,तपाईंको वालेटमा क्यासब्याक रकम जम्मा भएको छ। कारोबार विवरण एपमा हेर्नुहोस्।,legit,bank_wallet,ne,viber,2026-09-26
+371,Tapai ko cashback wallet ma credit bhayo. Transaction history hernuhos.,legit,bank_wallet,roman,whatsapp,2026-09-26
+372,Reward Update: तपाईंको cashback NPR 50 wallet मा credit भयो। Details app मा हेर्नुहोस्।,legit,bank_wallet,mixed,messenger,2026-09-26
+373,Your eSewa account statement is ready. View or download it from the official app.,legit,bank_wallet,en,email,2026-09-26
+374,तपाईंको वालेट कारोबार विवरण तयार छ। आधिकारिक एपबाट हेर्नुहोस्।,legit,bank_wallet,ne,other,2026-09-26
+375,Tapai ko Khalti monthly statement available chha. App bata download garnuhos.,legit,bank_wallet,roman,sms,2026-09-26
+376,ConnectIPS Statement: तपाईंको transaction summary ready छ। Official portal मा हेर्नुहोस्।,legit,bank_wallet,mixed,viber,2026-09-26
+377,Your payment could not be completed. No amount was deducted. Please try again through the official app.,legit,bank_wallet,en,whatsapp,2026-09-26
+378,तपाईंको भुक्तानी सफल हुन सकेन। रकम कट्टा भएको छैन। आधिकारिक एपबाट पुनः प्रयास गर्नुहोस्।,legit,bank_wallet,ne,messenger,2026-09-26
+379,Tapai ko transaction fail bhayo. Paisa kateko bhaye refund policy anusar process hunchha.,legit,bank_wallet,roman,email,2026-09-26
+380,eSewa Alert: तपाईंको payment complete भएन। Amount debit भएको भए transaction history check गर्नुहोस्।,legit,bank_wallet,mixed,other,2026-09-26
+381,Your bank transfer request has been cancelled successfully. No further action is required.,legit,bank_wallet,en,sms,2026-09-26
+382,तपाईंको रकम स्थानान्तरण अनुरोध रद्द गरिएको छ।,legit,bank_wallet,ne,viber,2026-09-26
+383,Tapai ko wallet transfer request cancel bhayo. Balance status app ma hernuhos.,legit,bank_wallet,roman,whatsapp,2026-09-26
+384,ConnectIPS Notice: तपाईंको transaction cancel भयो। Updated balance mobile banking मा हेर्नुहोस्।,legit,bank_wallet,mixed,messenger,2026-09-26
+385,Thank you for contacting customer support. Your ticket has been created. Check the official app for updates.,legit,other,en,email,2026-09-26
+386,तपाईंको सहयोग अनुरोध दर्ता भएको छ। समाधानको प्रगति एपमा हेर्नुहोस्।,legit,other,ne,other,2026-09-26
+387,Tapai ko support request receive bhayo. Update official app ma aauchha.,legit,other,roman,sms,2026-09-26
+388,Customer Care Update: तपाईंको request successfully register भयो। Reference details app मा हेर्नुहोस्।,legit,other,mixed,viber,2026-09-26
+389,Your registered email address has been updated successfully. Review your profile in the official app.,legit,bank_wallet,en,whatsapp,2026-09-26
+390,तपाईंको दर्ता गरिएको मोबाइल नम्बर अद्यावधिक भएको छ। विवरण एपमा हेर्नुहोस्।,legit,bank_wallet,ne,messenger,2026-09-26
+391,Tapai ko profile details update bhayo. Security ko lagi official app ma login garera check garnuhos.,legit,bank_wallet,roman,email,2026-09-26
+392,Account Update: तपाईंको contact details successfully change भयो। Details app मा confirm गर्नुहोस्।,legit,bank_wallet,mixed,other,2026-09-26
+393,Your service subscription has been renewed successfully. Check the official app for validity details.,legit,other,en,sms,2026-09-26
+394,तपाईंको सेवा सदस्यता सफलतापूर्वक नवीकरण भएको छ। म्याद एपमा हेर्नुहोस्।,legit,other,ne,viber,2026-09-26
+395,Tapai ko subscription renew bhayo. Validity details app ma hernuhos.,legit,other,roman,whatsapp,2026-09-26
+396,Service Update: तपाईंको subscription successfully renew भयो। Validity official app मा हेर्नुहोस्।,legit,other,mixed,messenger,2026-09-26
+397,Your PIN change request was completed successfully. Never share your PIN with anyone.,legit,otp_request,en,email,2026-09-26
+398,तपाईंको पिन परिवर्तन अनुरोध सफल भएको छ। आफ्नो पिन कसैलाई नदिनुहोस्।,legit,otp_request,ne,other,2026-09-26
+399,Tapai ko security code successfully reset bhayo. Code kasailai nadinuhos.,legit,otp_request,roman,sms,2026-09-26
+400,Bank Security: तपाईंको PIN reset successfully complete भयो। PIN कसैलाई share नगर्नुहोस्।,legit,otp_request,mixed,viber,2026-09-26
