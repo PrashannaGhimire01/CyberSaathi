@@ -1,0 +1,91 @@
+id,text,label,category,language,source,date_added
+1,Congratulations! You won Rs 50000 in Ncell lucky draw. Call [PHONE] to claim,scam,prize,en,sms,2026-09-26
+2,tapailai esewa bata 10000 cashback milne bhayo click garnus http://bit.ly/3xYz123,scam,bank_wallet,roman,sms,2026-09-26
+3,Your Daraz order is on hold. Pay customs Rs 450 http://daraz-track.com/claim,scam,delivery,en,sms,2026-09-26
+4,नेपाल बैंक: तपाईंको खाता बन्द हुन लागेको छ। KYC update गर्नुहोस् http://nbl-kyc.com,scam,bank_wallet,ne,sms,2026-09-26
+5,Hi this is your friend. I'm stuck in India need money for ticket. Send to [PHONE],scam,impersonation,en,whatsapp,2026-09-26
+6,Tapailai 3 lakh loan milchha bina dhito. Call [PHONE],scam,loan,roman,sms,2026-09-26
+7,Your Khalti wallet will be blocked. Verify now http://khalti-verify.net,scam,bank_wallet,en,sms,2026-09-26
+8,OTP 847291 share garnus account verify garna,scam,otp_request,roman,sms,2026-09-26
+9,Work from home earn 5000 daily. Registration 2000 only. Contact [PHONE],scam,job,en,sms,2026-09-26
+10,तपाईंको छोरा accident मा पर्यो। 1 लाख चाहिएको छ। Hospital [PHONE],scam,impersonation,mixed,sms,2026-09-26
+11,Your ConnectIPS suspended. Reactivate http://connectips-verify.com,scam,bank_wallet,en,sms,2026-09-26
+12,Dubai job vacancy salary 2 lakh. Processing 15000. Call [PHONE],scam,job,en,sms,2026-09-26
+13,eSewa customer care: tapailai 5000 refund milne bhayo OTP pathaunuhos [PHONE],scam,otp_request,roman,sms,2026-09-26
+14,Your package stuck in customs. Pay Rs 850 http://customs-clear.net,scam,delivery,en,sms,2026-09-26
+15,Nepal Police Cyber Bureau: tpaiko account fraud ma use bhayo. Fine pay garnus 10000,scam,impersonation,roman,sms,2026-09-26
+16,IME Pay: Your account locked. Unlock http://imepay-unlock.com,scam,bank_wallet,en,sms,2026-09-26
+17,तपाईंको SIM card 24 ghanta ma block hunchha. Update http://sim-update.net,scam,other,mixed,sms,2026-09-26
+18,You selected for govt cash support 5 lakh. Register http://govt-support.com,scam,prize,en,sms,2026-09-26
+19,Passport ready bhayo collect garna 5000 fee pathaunuhos [PHONE],scam,other,roman,sms,2026-09-26
+20,Your Nabil Bank account suspicious activity. Secure http://nabil-secure.net,scam,bank_wallet,en,sms,2026-09-26
+21,Congratulations! You have won NPR 50000 in the Nepal Telecom Lucky Draw. Claim now: http://ntc-prize.live/claim,scam,prize,en,sms,2026-09-26
+22,Tapai lai Rs. 50000 ko cashback approve bhayo. Paisa receive garna OTP dinuhos: [PHONE],scam,otp_request,roman,sms,2026-09-26
+23,नेपाल Telecom Lucky Draw: You won Rs. 100000! Processing fee NPR 1500 पठाउनुहोस्: [PHONE],scam,prize,mixed,sms,2026-09-26
+24,Dubai ma job cha. Mahina ko Rs. 180000 talab. Processing fee Rs. 15000 pathaunuhos: [PHONE],scam,job,roman,sms,2026-09-26
+25,"Daraz Hiring: तपाईंको profile select भएको छ। Salary NPR 45000/month, registration fee पठाउनुहोस्: [PHONE]",scam,job,mixed,sms,2026-09-26
+26,Hi this is your cousin in Australia. I lost my wallet and need NPR 50000 urgently. Send to [PHONE],scam,impersonation,en,sms,2026-09-26
+27,Ma tapai ko dai ho. Naya number bata boliraheko chu. Hospital ko lagi Rs. 40000 pathaideu: [PHONE],scam,impersonation,roman,sms,2026-09-26
+28,Nepal Police Cyber Bureau: तपाईंको account fraud मा प्रयोग भएको छ। Fine NPR 10000 pay गर्नुहोस्: http://police-case.live/pay,scam,impersonation,mixed,sms,2026-09-26
+29,Yo tapai ko baini ko sathi ho. U hospital ma chhe treatment ko lagi Rs. 60000 chaahiyo: [PHONE],scam,impersonation,roman,sms,2026-09-26
+30,Tapai ko passport renew garna baaki cha. Fine nalagos bhanera fee tirnuhos: [PHONE],scam,other,roman,sms,2026-09-26
+31,Electricity bill payment of Rs 1250 received. Thank you.,legit,transaction_alert,en,sms,2026-09-26
+32,तपाईंको खल्तीबाट रु ३५० रिचार्ज सफल भयो।,legit,transaction_alert,ne,sms,2026-09-26
+33,Your eSewa payment NPR 500 successful. Ref: TXN847291,legit,transaction_alert,en,sms,2026-09-26
+34,Ncell data pack activated. Validity 30 days.,legit,service,en,sms,2026-09-26
+35,Tapailai Rs 200 cashback credit bhayo. Check eSewa app.,legit,promotion,roman,sms,2026-09-26
+36,Your Daraz order confirmed. Track in app.,legit,service,en,sms,2026-09-26
+37,नेपाल टेलिकम: रिचार्ज रु १०० सफल।,legit,transaction_alert,ne,sms,2026-09-26
+38,OTP 482915 for login. Do not share.,legit,otp,en,sms,2026-09-26
+39,Your Khalti bill payment Rs 980 successful.,legit,transaction_alert,en,sms,2026-09-26
+40,Foodmandu order accepted. Delivery in 45 mins.,legit,service,en,sms,2026-09-26
+41,तपाईंको खातामा रु २५००० जम्मा भएको छ।,legit,transaction_alert,ne,sms,2026-09-26
+42,Your loan EMI NPR 8500 due on 5th. Maintain balance.,legit,service,en,sms,2026-09-26
+43,NIC Asia transfer NPR 2000 completed.,legit,transaction_alert,en,sms,2026-09-26
+44,Pathao ride completed. Fare Rs 350.,legit,transaction_alert,en,sms,2026-09-26
+45,Your mobile balance is low. Recharge soon.,legit,service,en,sms,2026-09-26
+46,तपाईंको डेबिट कार्डबाट रु १५०० कट्टा भयो।,legit,transaction_alert,ne,sms,2026-09-26
+47,Your passport appointment confirmed. Date: 28 Sep.,legit,service,en,sms,2026-09-26
+48,eSewa password reset successful.,legit,service,en,sms,2026-09-26
+49,Your insurance premium due. Pay before 30th.,legit,service,en,sms,2026-09-26
+50,नेपाल बैंक: तपाईंको statement ready छ। App मा हेर्नुहोस्।,legit,service,ne,sms,2026-09-26
+51,Your eSewa payment of NPR 500 to Merchant Store was successful. View receipt: https://esewa.com.np/receipt/TXN-847291,legit,transaction_alert,en,sms,2026-09-26
+52,तपाईंको खल्तीबाट रु ३५० को मोबाइल रिचार्ज सफल भयो। विवरण: https://khalti.com/txn/KLT-518204,legit,transaction_alert,ne,sms,2026-09-26
+53,Tapai ko ConnectIPS bata Rs. 1200 ko payment safal bhayo. Details: https://connectips.com/transaction/CIPS-629481,legit,transaction_alert,roman,sms,2026-09-26
+54,"Nabil Bank: तपाईंको account मा NPR 25,000 credit भएको छ। Statement: https://nepalbank.com.np/statement/NBL-731942",legit,transaction_alert,mixed,sms,2026-09-26
+55,"Your NIC Asia mobile banking transfer of NPR 2,000 was completed. Track: https://nicanepal.com/transfer/NICA-390175",legit,transaction_alert,en,sms,2026-09-26
+56,"तपाईंको IME Pay खातामा रु १,५०० प्राप्त भएको छ। History: https://imepay.com.np/history",legit,transaction_alert,ne,sms,2026-09-26
+57,Tapai ko eSewa wallet ma Rs. 300 load bhayo. Check balance: https://esewa.com.np/balance,legit,transaction_alert,roman,sms,2026-09-26
+58,Khalti सूचना: तपाईंको wallet बाट NPR 980 को electricity bill payment सफल भयो। Receipt: https://khalti.com/bill/KLT-892341,legit,transaction_alert,mixed,sms,2026-09-26
+59,"Your Nepal Bank account has been credited with NPR 10,000. Statement: https://nepalbank.com.np/account/statement",legit,transaction_alert,en,sms,2026-09-26
+60,"तपाईंको ConnectIPS मार्फत गरिएको रु २,५०० को भुक्तानी सफल भएको छ। Details: https://connectips.com/payment/CIPS-518293",legit,transaction_alert,ne,sms,2026-09-26
+61,Tapai ko IME Pay bata Rs. 750 ko topup successful bhayo. Receipt: https://imepay.com.np/receipt/IME-629401,legit,transaction_alert,en,sms,2026-09-26
+62,"Siddhartha Bank: तपाईंको account बाट NPR 4,200 debit भएको छ। Statement: https://sbl.com.np/statement/SBL-738291",legit,service,mixed,sms,2026-09-26
+63,Your Prabhu Bank account balance inquiry request has been processed. View: https://prabhubank.com.np/balance,legit,service,en,sms,2026-09-26
+64,"तपाईंको बैंक खातामा रु ५,००० जम्मा भएको छ। Details: https://nepalbank.com.np/credit/NBL-829341",legit,transaction_alert,ne,sms,2026-09-26
+65,Tapai ko Khalti cashout request receive bhayo. Status: https://khalti.com/cashout/status/KLT-918273,legit,service,roman,sms,2026-09-26
+66,"eSewa: तपाईंको NPR 1,000 load money request सफल भयो। Balance: https://esewa.com.np/wallet/balance",legit,transaction_alert,mixed,sms,2026-09-26
+67,Your Global IME Bank transfer has been submitted. Track: https://globalimebank.com/transfer/GIB-528193,legit,service,en,sms,2026-09-26
+68,तपाईंको मोबाइल बैंकिङ पासवर्ड सफलतापूर्वक परिवर्तन भएको छ। Security: https://nicanepal.com/security,legit,service,ne,sms,2026-09-26
+69,Tapai ko wallet KYC verification request receive bhayo. Status: https://khalti.com/kyc/status,legit,service,roman,sms,2026-09-26
+70,"Nepal Bank alert: तपाईंले NPR 1,250 को QR payment गर्नुभयो। Receipt: https://nepalbank.com.np/qr/NBL-628391",legit,transaction_alert,mixed,sms,2026-09-26
+71,Your NTC prepaid recharge of NPR 100 was successful. Check balance: https://ntc.net.np/balance,legit,service,en,sms,2026-09-26
+72,तपाईंको नेपाल टेलिकम नम्बरमा रु २०० रिचार्ज सफल भयो। Details: https://ntc.net.np/recharge,legit,service,ne,sms,2026-09-26
+73,Tapai ko Ncell number ma Rs. 299 ko data pack activate bhayo. Check: https://ncell.com.np/data/pack,legit,service,ne,sms,2026-09-26
+74,Nepal Telecom: तपाईंको NPR 50 balance transfer request सफल भयो। History: https://ntc.net.np/transfer,legit,service,roman,sms,2026-09-26
+75,Your Ncell data pack is active. Check remaining data: https://ncell.com.np/app/data-usage,legit,service,en,sms,2026-09-26
+76,तपाईंको मोबाइल डेटा प्याक भोलि समाप्त हुँदैछ। Renew: https://ncell.com.np/renew,legit,service,ne,sms,2026-09-26
+77,Tapai ko NTC recharge successful bhayo. Balance check: https://ntc.net.np/balance/check,legit,service,roman,sms,2026-09-26
+78,Ncell सूचना: तपाईंको data pack आज राति 12 बजे समाप्त हुन्छ। Renew: https://ncell.com.np/data/renew,legit,service,roman,sms,2026-09-26
+79,Your Nepal Telecom subscription request has been received. Status: https://ntc.net.np/subscription/status,legit,transaction_alert,en,sms,2026-09-26
+80,तपाईंको मोबाइल नम्बरमा नयाँ भ्वाइस प्याक सक्रिय भएको छ। Details: https://ntc.net.np/voice/pack,legit,service,ne,sms,2026-09-26
+81,Tapai ko Ncell recharge Rs. 1000 safal bhayo. Balance: https://ncell.com.np/balance,legit,service,roman,sms,2026-09-26
+82,Nepal Telecom: तपाईंको SIM registration details updated भए। Check: https://ntc.net.np/sim/registration,legit,service,roman,sms,2026-09-26
+83,Your NTC mobile balance is low. Recharge: https://ntc.net.np/recharge/online,legit,service,en,sms,2026-09-26
+84,तपाईंको Ncell सेवा शुल्क सफलतापूर्वक कट्टा भएको छ। Bill: https://ncell.com.np/bill,legit,service,ne,sms,2026-09-26
+85,Tapai ko order from Daraz has been confirmed. Track: https://daraz.com.np/order/track/DRZ-829341,legit,service,en,sms,2026-09-26
+86,Daraz: तपाईंको अर्डर सफलतापूर्वक राखिएको छ। Details: https://daraz.com.np/order/DRZ-518293,legit,service,ne,sms,2026-09-26
+87,Your Foodmandu order has been accepted by the restaurant. Track: https://foodmandu.com.np/order/FMD-629384,legit,service,en,sms,2026-09-26
+88,Pathao Food: तपाईंको order तयार हुँदैछ। Status: https://pathao.com/food/order/PFO-738291,legit,service,ne,sms,2026-09-26
+89,Your package has been picked up by the courier. Track: https://nepalpost.gov.np/track/NP-829341,legit,service,en,sms,2026-09-26
+90,तपाईंको पार्सल वितरणका लागि पठाइएको छ। Track: https://daraz.com.np/delivery/track,legit,service,ne,sms,2026-09-26
