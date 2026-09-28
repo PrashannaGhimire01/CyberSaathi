@@ -1,18 +1,21 @@
 from typing import Literal
+from pathlib import Path
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
-from app.services.message_analyzer import analyze_message, URL_PATTERN
 from app.services.url_analyzer import analyze_url
 from app.services.risk_engine import calculate_risk
 from app.services.explanation import build_explanation
 from app.services.emergency import build_emergency_plan
-from pathlib import Path
-from fastapi.staticfiles import StaticFiles
+from app.services.hybrid import assess
 
-MAX_URLS = 5
 Language = Literal["en", "ne"]
 Shared = Literal["otp", "password", "card", "money", "app_installed", "personal_info"]
 
+ML_REASON = {
+    "en": "Its overall wording is similar to known scam messages (flagged by our AI model).",
+    "ne": "यसको समग्र लेखन ज्ञात ठगी सन्देशहरूसँग मिल्दोजुल्दो छ (हाम्रो AI मोडेलले चिन्ह लगायो)।",
+}
 
 app = FastAPI(title="CyberSaathi")
 
@@ -28,27 +31,42 @@ class EmergencyIn(BaseModel):
     shared: list[Shared] = Field(default_factory=list, max_length=6)
     language: Language = "en"
 
-def build_response(signals, language):
-    score, level = calculate_risk(signals)
-    return {"risk": level, "score": score,
-            "explanation": build_explanation(level, signals, language),
-            "signals": signals}
-
 @app.get("/")
 def home():
     return {"service": "CyberSaathi", "status": "running"}
 
 @app.post("/analyze/message")
 def check_message(data: MessageIn):
-    signals = analyze_message(data.message)
-    for url in URL_PATTERN.findall(data.message)[:MAX_URLS]:
-        signals.extend(analyze_url(url))
-    return build_response(signals, data.language)
+    result = assess(data.message)
+    explanation = build_explanation(result["level"], result["signals"], data.language)
+    if result["ml_flagged"]:
+        reason = ML_REASON[data.language]
+        if reason not in explanation["reasons"]:
+            explanation["reasons"].append(reason)
+    return {
+        "risk": result["level"],
+        "score": result["score"],
+        "explanation": explanation,
+        "ml": {
+            "available": result["ml_available"],
+            "probability": result["ml_probability"],
+            "flagged": result["ml_flagged"],
+            "override_applied": result["override_applied"],
+        },
+        "signals": result["signals"],
+    }
 
 @app.post("/analyze/url")
 def check_url(data: UrlIn):
-    return build_response(analyze_url(data.url), data.language)
-    
+    signals = analyze_url(data.url)
+    score, level = calculate_risk(signals)
+    return {
+        "risk": level,
+        "score": score,
+        "explanation": build_explanation(level, signals, data.language),
+        "signals": signals,
+    }
+
 @app.post("/emergency")
 def emergency(data: EmergencyIn):
     return {"steps": build_emergency_plan(set(data.shared), data.language)}
