@@ -92,6 +92,8 @@ Explanation layer (bilingual advice) → Web interface
   rule-based baseline using precision, recall and false-positive rate.
 
 
+
+
   
 ---
 
@@ -148,3 +150,69 @@ high recall (it generalises from language) but lower precision (it treats any li
 - Labels assigned with AI assistance; a human spot-check of a labelled sample is still to be done and reported.
 - The hybrid's official-domain whitelist must be verified against official sources and is not exhaustive.
 - Single annotator; no inter-annotator agreement measured
+
+
+---
+
+## 2026-09-28 to 2026-09-29 — v0.3: Android app and hybrid backend integration
+
+### Goal
+Turn CyberSaathi into a working Android app on a real phone, backed by a
+backend that serves the hybrid (rule-based + ML) detector, covering the four
+pillars: protect, explain, educate and include (bilingual).
+
+### Work completed
+- Integrated the ML model and hybrid logic into the FastAPI backend
+  (`ml_classifier.py`, `hybrid.py`); `/analyze/message` now returns the hybrid
+  verdict with an ML-based reason when the model contributes. Falls back to
+  rules alone if the model file is absent.
+- Built a Flutter app and ran it on a physical Android phone (Realme, Android 9)
+  over USB, with `adb reverse` bridging the phone to the WSL backend.
+- App features: Check Message, Check Link, "I already clicked" emergency flow,
+  and a Learn tab with bilingual lessons and quizzes — all wired to the backend
+  endpoints, with a live Nepali/English toggle.
+- Implemented Share-to-CyberSaathi via an Android platform channel (Kotlin
+  `MainActivity` + intent-filter): sharing a message from another app opens
+  CyberSaathi, fills the message, and auto-checks it.
+- Added a `/lessons` endpoint serving localized lessons from JSON.
+- Backed up the app to a separate GitHub repository (CyberSaathi-mobile).
+
+### Architecture
+Phone (Flutter) → adb reverse → FastAPI backend → hybrid engine
+(rules + ML) → localized response → app UI. Backend and app are two repos:
+CyberSaathi (brain) and CyberSaathi-mobile (face).
+
+### Problems encountered and solutions
+
+| Problem | Cause | Solution | Lesson |
+|---|---|---|---|
+| Android build failed: NDK 28.2.13676358 not found; `sdkmanager` crashed | Auto-installer for the NDK crashed on new SDK tooling | Installed the NDK manually via Android Studio SDK Manager | Pre-install native deps to avoid fragile auto-installers |
+| `INSTALL_FAILED_VERIFICATION_FAILURE` on the phone | Play Protect / "verify apps over USB" blocking sideloads | Disabled "Verify apps over USB" and Play Protect scanning | Realme/ColorOS devices need install verification relaxed for dev |
+| App installed but `adb` "device not found" mid-build | Phone slept and dropped USB during the build | Enabled "Stay awake" in Developer options | Keep the device awake during long builds |
+| Server failed to start (`ModuleNotFoundError: app`) | uvicorn run from repo root, not `backend/` | Run the server from `backend/` | Working directory matters for imports |
+| Android blocked the app's HTTP calls | Cleartext HTTP disabled by default | Added `usesCleartextTraffic="true"` for local development | Dev-only; production uses HTTPS |
+
+### Key design decisions
+1. **Complete the backend "brain" before the app UI.** The app calls a hybrid
+   endpoint from its first screen instead of the weaker rule-only detector.
+2. **Explainability preserved in the hybrid.** Rules produce the reasons; ML
+   adds recall; an ML reason is shown when the model is the one that flagged.
+3. **adb reverse for development.** The app targets `localhost:8000`, bridged to
+   the WSL backend; a deployed backend will remove this dependency later.
+4. **Backend-served lessons.** Education content lives in the backend (JSON), so
+   it can be updated without rebuilding the app, and it prepares for offline sync.
+5. **Native platform channel for Share.** Avoids external-package version risk
+   and teaches Flutter↔Android communication directly.
+
+### Known limitations
+- Requires USB (or wireless adb) and a running local backend during development.
+- Cleartext HTTP is enabled for local dev only.
+- Lessons are a small starter set; Nepali wording to be reviewed by a native
+  speaker.
+- The app is not yet offline (v0.4) and the backend is not yet deployed.
+
+### Next steps
+- v0.4: run detection on-device (export model to TFLite/ONNX) for offline use,
+  and design signed rule/lesson updates.
+- Deploy the backend so the app works without a cable or laptop.
+- Review Nepali lesson content; expand lessons and add progress tracking.

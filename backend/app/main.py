@@ -8,6 +8,7 @@ from app.services.risk_engine import calculate_risk
 from app.services.explanation import build_explanation
 from app.services.emergency import build_emergency_plan
 from app.services.hybrid import assess
+from app.services.lessons import get_lessons
 
 Language = Literal["en", "ne"]
 Shared = Literal["otp", "password", "card", "money", "app_installed", "personal_info"]
@@ -72,4 +73,9 @@ def emergency(data: EmergencyIn):
     return {"steps": build_emergency_plan(set(data.shared), data.language)}
 
 STATIC_DIR = Path(__file__).parent / "static"
+
+@app.get("/lessons")
+def lessons(language: Language = "en"):
+    return {"lessons": get_lessons(language)}
+
 app.mount("/ui", StaticFiles(directory=STATIC_DIR, html=True), name="ui")
