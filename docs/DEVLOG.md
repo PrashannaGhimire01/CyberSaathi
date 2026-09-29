@@ -216,3 +216,55 @@ CyberSaathi (brain) and CyberSaathi-mobile (face).
   and design signed rule/lesson updates.
 - Deploy the backend so the app works without a cable or laptop.
 - Review Nepali lesson content; expand lessons and add progress tracking.
+
+## v0.4 — Offline-first detection (2026-09-30)
+
+**Goal:** Make the entire app usable with no internet — delivering the
+"Include" pillar and direct evidence for RQ3 (offline protection).
+
+**What was built**
+- `lib/local_engine.dart`: a Dart port of the backend rule engine. It loads
+  the *same* rule JSON files (bundled as app assets) and runs entirely
+  on-device: message keyword analysis, URL analysis (brand impersonation,
+  @-trick, IP host, punycode, suspicious TLD, shorteners, malformed/fail-safe),
+  weighted risk scoring with the safety-advice discount, and bilingual
+  explanations.
+- Offline fallback in all four tabs: each tries the backend first and, on any
+  network failure, falls back to the on-device engine and shows a
+  "⚡ Offline (rule-based)" badge.
+- Emergency guide ported (`emergencyPlan`) — mirrors `build_emergency_plan`:
+  first steps → situation-specific steps in priority order → last steps,
+  de-duplicated while preserving order.
+- Lessons ported (`lessons`) — mirrors `get_lessons`: a random quiz per
+  lesson, options shuffled, correct-answer index remapped to its new position.
+
+**JSON-as-data parity:** phone and server read identical rule files, so offline
+verdicts match online. No detection logic is hard-coded in Dart beyond what
+faithfully mirrors the Python.
+
+**How it was validated**
+- Message and URL cases cross-checked against the backend before translation.
+- Tested on a physical device (Realme RMX1941) in airplane mode: all four tabs
+  produce correct results with no connection.
+- Online path confirmed working via `adb reverse tcp:8000 tcp:8000` to the WSL
+  backend.
+
+**Engineering lessons recorded**
+- Never swallow exceptions: a `catch (_)` hid the real "Unable to load asset"
+  error; surfacing it (log the detail, show the user a calm message) found the
+  bug in one step.
+- Flutter assets must be *uncommented* in pubspec and picked up with
+  `flutter clean` after changes.
+- Brace discipline: a method must live inside the class body, above its final `}`.
+
+**Security notes (development-only)**
+- `usesCleartextTraffic=true` and the `localhost` backend are for development
+  only; production requires an HTTPS backend.
+- In offline mode no user data leaves the device; the bundled rule JSONs contain
+  no secrets.
+
+**Limitations / next**
+- Offline detection is rule-based only; the ML classifier remains server-side.
+  Optional stretch: export TF-IDF + logistic-regression weights to JSON for
+  on-device inference.
+- Backend still runs locally; cloud deployment would remove the USB/adb dependency.
