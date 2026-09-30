@@ -396,3 +396,51 @@ id,text,label,category,language,source,date_added
 398,तपाईंको पिन परिवर्तन अनुरोध सफल भएको छ। आफ्नो पिन कसैलाई नदिनुहोस्।,legit,otp_request,ne,other,2026-09-26
 399,Tapai ko security code successfully reset bhayo. Code kasailai nadinuhos.,legit,otp_request,roman,sms,2026-09-26
 400,Bank Security: तपाईंको PIN reset successfully complete भयो। PIN कसैलाई share नगर्नुहोस्।,legit,otp_request,mixed,viber,2026-09-26
+401,"Hi, are you coming to dinner tonight?",legit,personal,en,sms,2026-09-30
+402,Happy birthday! Hope you have a wonderful day.,legit,personal,en,viber,2026-09-30
+403,Let's meet at the coffee shop around 5pm.,legit,personal,en,whatsapp,2026-09-30
+404,Can you pick up some vegetables on your way home?,legit,personal,en,messenger,2026-09-30
+405,"Thank you so much for your help yesterday, I really appreciate it.",legit,personal,en,sms,2026-09-30
+406,"The movie was great, we should watch the next one together.",legit,personal,en,viber,2026-09-30
+407,"I'll be a little late, the traffic is heavy today.",legit,personal,en,whatsapp,2026-09-30
+408,Good morning! Did you sleep well?,legit,personal,en,messenger,2026-09-30
+409,"Congratulations on your new job, so happy for you!",legit,personal,en,sms,2026-09-30
+410,Don't forget we have the family lunch on Saturday.,legit,personal,en,viber,2026-09-30
+411,"I miss you, let's catch up soon.",legit,personal,en,whatsapp,2026-09-30
+412,Call me when you get home safely.,legit,personal,en,messenger,2026-09-30
+413,Khana khaisakyau? Ma aja ghar chittai aauchu.,legit,personal,roman,sms,2026-09-30
+414,Aja office kasto bhayo? Thakai lagyo hola.,legit,personal,roman,viber,2026-09-30
+415,Bholi bihana ko plan k cha? Ghumna jane?,legit,personal,roman,whatsapp,2026-09-30
+416,"Didi, aama lai sanchai cha bhanera sodhnu la.",legit,personal,roman,messenger,2026-09-30
+417,"Dhanyabad hai, timro maya sadhai yaad aauchha.",legit,personal,roman,sms,2026-09-30
+418,"Ma market janchhu, kehi chahiyo bhane bhana.",legit,personal,roman,viber,2026-09-30
+419,"Aja mausam ramro cha, ghumna jaam na.",legit,personal,roman,whatsapp,2026-09-30
+420,Timro janmadin ko subhakamana! Khusi raha.,legit,personal,roman,messenger,2026-09-30
+421,"Bhai, ghar aaipugyau ki nai? Message gara.",legit,personal,roman,sms,2026-09-30
+422,Bholi college jane ho? Sathai jaam.,legit,personal,roman,viber,2026-09-30
+423,"Chiya khana aau na, gaff garchhau.",legit,personal,roman,whatsapp,2026-09-30
+424,"Maya, chittai bhetaula hai.",legit,personal,roman,messenger,2026-09-30
+425,आज साँझ खाना खान आउँछौ?,legit,personal,ne,sms,2026-09-30
+426,जन्मदिनको शुभकामना! खुसी रहनुहोस्।,legit,personal,ne,viber,2026-09-30
+427,भोलि बिहान भेटौं है।,legit,personal,ne,whatsapp,2026-09-30
+428,आमालाई सन्चै छ भनेर सोध्नू।,legit,personal,ne,messenger,2026-09-30
+429,"धेरै धन्यवाद, तिम्रो सहयोग सम्झिरहन्छु।",legit,personal,ne,sms,2026-09-30
+430,"आज मौसम राम्रो छ, घुम्न जाऔं।",legit,personal,ne,viber,2026-09-30
+431,घर सुरक्षित पुगेपछि फोन गर्नू।,legit,personal,ne,whatsapp,2026-09-30
+432,"भोलि परिवारसँग खाना खाने कार्यक्रम छ, नबिर्सनू।",legit,personal,ne,messenger,2026-09-30
+433,"तिमीलाई सम्झिरहेको छु, चाँडै भेटौं।",legit,personal,ne,sms,2026-09-30
+434,काम सकियो? थकाइ लाग्यो होला।,legit,personal,ne,viber,2026-09-30
+435,"बजार जाँदैछु, केही चाहिन्छ भने भन।",legit,personal,ne,whatsapp,2026-09-30
+436,राम्रोसँग सुत्यौ? शुभ प्रभात।,legit,personal,ne,messenger,2026-09-30
+437,"Aja office ma meeting thyo, ali late hunchha ghar aauna.",legit,personal,mixed,sms,2026-09-30
+438,Happy anniversary! तिमीहरूलाई धेरै माया।,legit,personal,mixed,viber,2026-09-30
+439,"Weekend ma ghumna jane plan cha, तिमी free छौ?",legit,personal,mixed,whatsapp,2026-09-30
+440,"Thanks yaar, तिम्रो help le dherai farak paryo.",legit,personal,mixed,messenger,2026-09-30
+441,"Dinner ready cha, chittai ghar aau na।",legit,personal,mixed,sms,2026-09-30
+442,Congrats on your result! धेरै खुसी लाग्यो।,legit,personal,mixed,viber,2026-09-30
+443,"Good night, राम्रोसँग सुत्नू। Bholi bhetaula.",legit,personal,mixed,whatsapp,2026-09-30
+444,"Movie ticket book garisake, साँझ ७ बजे हो।",legit,personal,mixed,messenger,2026-09-30
+445,"Aama le khana pakaunu bho, chittai aau।",legit,personal,mixed,sms,2026-09-30
+446,"Meeting postpone bhayo, aja ma free chu.",legit,personal,mixed,viber,2026-09-30
+447,"Take care hai, ghar pugera message gara।",legit,personal,mixed,whatsapp,2026-09-30
+448,"Kaam sakiyo, aba ghar farkidai chu, दिनको खाना सँगै खाऔं।",legit,personal,mixed,messenger,2026-09-30
