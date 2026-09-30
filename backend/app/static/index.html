@@ -21,6 +21,7 @@
       <button class="tab active" data-tab="message">Check message<br>सन्देश जाँच</button>
       <button class="tab" data-tab="url">Check link<br>लिङ्क जाँच</button>
       <button class="tab" data-tab="emergency">I already clicked<br>मैले क्लिक गरिसकें</button>
+      <button class="tab" data-tab="learn">Learn<br>सिक</button>
     </nav>
 
     <section id="message" class="panel">
@@ -44,6 +45,11 @@
       <label><input type="checkbox" value="app_installed"> Installed an app / एप इन्स्टल गरें</label>
       <label><input type="checkbox" value="personal_info"> Personal info / व्यक्तिगत विवरण</label>
       <button id="emergency-btn">Get help / सहायता पाउनुहोस्</button>
+    </section>
+
+    <section id="learn" class="panel hidden">
+      <button id="learn-refresh">New questions / नयाँ प्रश्न</button>
+      <div id="lessons"></div>
     </section>
 
     <section id="result" class="hidden"></section>

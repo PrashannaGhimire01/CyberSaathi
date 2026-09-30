@@ -43,3 +43,24 @@ label { display: block; padding: 6px 0; }
 .error { border-color: #555; }
 .score { font-weight: bold; }
 .disclaimer { font-size: 0.85rem; color: #5a6673; }
+
+
+.lesson {
+  background: #fff; border: 1px solid #c9d2dc; border-radius: 12px;
+  padding: 14px; margin-bottom: 14px;
+}
+.lesson h3 { margin: 0 0 6px; color: #1f5fae; }
+.quiz-q { font-weight: bold; }
+.options { display: flex; flex-direction: column; gap: 8px; }
+.option-btn {
+  text-align: left; padding: 10px; font-size: 1rem; cursor: pointer;
+  background: #f4f6f8; border: 1px solid #c9d2dc; border-radius: 10px;
+}
+.option-btn:disabled { cursor: default; }
+.option-btn.correct { background: #e6f4ea; border-color: #2e7d32; }
+.option-btn.wrong { background: #fce8e6; border-color: #c62828; }
+.quiz-feedback { margin-top: 10px; }
+#learn-refresh {
+  align-self: flex-end; padding: 8px 12px; font-size: 0.9rem; cursor: pointer;
+  background: #fff; color: #1f5fae; border: 1px solid #c9d2dc; border-radius: 10px;
+}

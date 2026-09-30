@@ -86,3 +86,55 @@ document.getElementById("emergency-btn").addEventListener("click", () => run(asy
   const shared = Array.from(boxes).map((box) => box.value);
   showSteps((await callApi("/emergency", { shared })).steps);
 }));
+
+
+// ---------- Learn (lessons) ----------
+async function loadLessons() {
+  const box = document.getElementById("lessons");
+  box.replaceChildren();
+  addElement(box, "p", "Loading… / लोड हुँदैछ…");
+  try {
+    const res = await fetch("/lessons?language=" + encodeURIComponent(languageSelect.value), { cache: "no-store"});
+    if (!res.ok) throw new Error("Request failed: " + res.status);
+    const data = await res.json();
+    renderLessons(data.lessons);
+  } catch (error) {
+    box.replaceChildren();
+    addElement(box, "p", "Could not load lessons. / पाठहरू लोड गर्न सकिएन।");
+    console.error(error);
+  }
+}
+
+function renderLessons(lessons) {
+  const box = document.getElementById("lessons");
+  box.replaceChildren();
+  lessons.forEach((lesson) => {
+    const card = addElement(box, "div", null, "lesson");
+    addElement(card, "h3", lesson.title);
+    addElement(card, "p", lesson.body);
+    const quiz = lesson.quiz;
+    addElement(card, "p", quiz.question, "quiz-q");
+    const opts = addElement(card, "div", null, "options");
+    const feedback = document.createElement("p");
+    feedback.className = "quiz-feedback hidden";
+    quiz.options.forEach((optText, i) => {
+      const btn = addElement(opts, "button", optText, "option-btn");
+      btn.addEventListener("click", () => {
+        opts.querySelectorAll("button").forEach((b) => (b.disabled = true));
+        const correct = i === quiz.answer;
+        btn.classList.add(correct ? "correct" : "wrong");
+        if (!correct) opts.querySelectorAll("button")[quiz.answer].classList.add("correct");
+        feedback.textContent = (correct ? "✅ " : "❌ ") + quiz.explain;
+        feedback.classList.remove("hidden");
+      });
+    });
+    card.appendChild(feedback);
+  });
+}
+
+// load lessons when the Learn tab opens, on refresh, or on language change
+document.querySelector('.tab[data-tab="learn"]').addEventListener("click", loadLessons);
+document.getElementById("learn-refresh").addEventListener("click", loadLessons);
+languageSelect.addEventListener("change", () => {
+  if (!document.getElementById("learn").classList.contains("hidden")) loadLessons();
+});

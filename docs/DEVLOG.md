@@ -268,3 +268,20 @@ faithfully mirrors the Python.
   Optional stretch: export TF-IDF + logistic-regression weights to JSON for
   on-device inference.
 - Backend still runs locally; cloud deployment would remove the USB/adb dependency.
+
+## v0.4.1 — False-positive reduction (2026-09-30)
+
+Problem: the ML model flagged benign everyday messages (e.g. "hi i love you
+claude ai") as MEDIUM risk. Cause: all 200 legit training examples were formal
+/ transactional (bank notices, OTPs, delivery updates) — the model had never
+seen casual human conversation labelled safe, so anything conversational looked
+foreign and scored scam-ish.
+
+Fix: added 48 casual benign messages (new "personal" category; en / ne / roman
+/ mixed) and retrained. The ML flag threshold was already 0.5 and left unchanged
+(a probability of 0.62-legit should never be flagged).
+
+Result — honest held-out eval on raw messages: accuracy 95.6%, scam recall 0.967
+(missed 1 of 30), legit false-alarm rate 3/60. The benign test message dropped
+from ~0.51 to 0.377 probability → now correctly LOW, with scam detection
+preserved. Deployed live on Render.
