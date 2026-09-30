@@ -285,3 +285,27 @@ Result — honest held-out eval on raw messages: accuracy 95.6%, scam recall 0.9
 (missed 1 of 30), legit false-alarm rate 3/60. The benign test message dropped
 from ~0.51 to 0.377 probability → now correctly LOW, with scam detection
 preserved. Deployed live on Render.
+
+
+## v0.7 (part) — Transformer baseline comparison for RQ2 (2026-09-30)
+
+Compared the lightweight TF-IDF + LogisticRegression model against a modern
+multilingual transformer (paraphrase-multilingual-MiniLM-L12-v2) embeddings +
+LogisticRegression, on the SAME honest held-out test set (90 raw messages,
+identical leakage guard as train_eval.py).
+
+Result: TF-IDF + LR — accuracy 95.6%, scam F1 0.935, 3 false alarms.
+Transformer embeddings + LR — accuracy 64.4%, scam F1 0.644, 31 false alarms
+(precision 0.48). The lightweight model won clearly.
+
+Interpretation: character n-grams capture the surface cues that mark scams
+(links, "verify", "OTP", suspicious TLDs); frozen semantic embeddings capture
+topic, so genuine and fake bank messages look alike and the classifier
+over-flags. Supports the offline-first design: the smaller, on-device model is
+also the more accurate here.
+
+Caveat: this tested FROZEN embeddings, not a fine-tuned transformer. A fine-tuned
+model was not evaluated and might narrow the gap, but would lose the on-device
+advantage. Noted as future work.
+
+Script: ai/compare_transformer.py (CPU-only torch).
