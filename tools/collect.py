@@ -1,12 +1,14 @@
 import csv
 import re
+import sys
 from datetime import date
 from pathlib import Path
 from anonymize import anonymize
 
 ROOT = Path(__file__).parent.parent
 INBOX = ROOT / "data" / "raw" / "inbox.txt"
-DATASET = ROOT / "data" / "dataset.csv"
+DATASET = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "data" / "dataset.csv"
+
 FIELDS = ["id", "text", "label", "category", "language", "source", "date_added"]
 CATEGORIES = {
     "scam": ["prize", "bank_wallet", "otp_request", "job", "loan", "delivery", "impersonation", "other"],

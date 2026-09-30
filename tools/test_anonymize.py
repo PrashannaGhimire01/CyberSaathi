@@ -25,3 +25,12 @@ def test_at_trick_preserved():
 
 def test_amounts_kept():
     assert anonymize("Rs 50000 jitnubhayo") == "Rs 50000 jitnubhayo"
+
+# NEW: Devanagari-digit phone numbers must be caught
+def test_devanagari_mobile_removed():
+    assert anonymize("यो कोड ९८४१३७६२९० मा पठाउनुहोस्") == "यो कोड [PHONE] मा पठाउनुहोस्"
+
+def test_devanagari_otp_kept():
+    # a 6-digit OTP code in Devanagari should NOT be treated as phone
+    out = anonymize("तपाईंको कोड ७२९४८१ हो")
+    assert "[PHONE]" not in out and "[NUMBER]" not in out

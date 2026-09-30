@@ -2,9 +2,18 @@ import re
 
 URL_START = re.compile(r"^(https?://|www\.)", re.IGNORECASE)
 EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
-MOBILE = re.compile(r"(?<!\d)(\+?977-?)?9[678]\d{8}(?!\d)")
-LANDLINE = re.compile(r"(?<!\d)0\d{1,2}-?\d{6,7}(?!\d)")
-LONG_NUMBER = re.compile(r"\b\d{9,}\b")
+
+# digits in BOTH scripts: ASCII 0-9 and Devanagari ० (U+0966) .. ९ (U+096F)
+D = r"[0-9०-९]"
+NINE = r"[9९]"          # 9 or ९
+ZERO = r"[0०]"          # 0 or ०
+
+# Nepali mobile: optional +977 / ९७७, then 10 digits starting 9/९
+MOBILE = re.compile(rf"(?<!{D})(?:\+?(?:977|३७७)[- ]?)?{NINE}{D}{{9}}(?!{D})")
+# Landline: 0/० + 1-2 digits + optional dash + 6-7 digits
+LANDLINE = re.compile(rf"(?<!{D}){ZERO}{D}{{1,2}}-?{D}{{6,7}}(?!{D})")
+# Any remaining long number (accounts, cards): 9+ digits
+LONG_NUMBER = re.compile(rf"(?<!{D}){D}{{9,}}(?!{D})")
 
 def clean_url(token):
     parts = re.split(r"[?#]", token, maxsplit=1)

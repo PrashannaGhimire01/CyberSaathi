@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "lessons": [
     {
       "id": "phishing",
@@ -8,21 +8,26 @@
         "en": "Phishing is when someone pretends to be a trusted company (like your bank, eSewa, or Khalti) to trick you into giving your password, OTP, or money. They create urgency and fear so you act before you think. Always check who really sent the message and where the link truly goes.",
         "ne": "फिसिङ भनेको कसैले तपाईंको विश्वासिलो कम्पनी (जस्तै बैंक, eSewa, वा Khalti) को नक्कल गरेर तपाईंको पासवर्ड, OTP वा पैसा हात पार्ने प्रयास हो। उनीहरू तपाईंलाई सोच्नुअघि नै हतारमा काम गर्न डर र दबाब सिर्जना गर्छन्। सधैं पठाउने वास्तवमा को हो र लिङ्क साँच्चै कहाँ जान्छ भनेर जाँच्नुहोस्।"
       },
-      "quiz": {
-        "question": {
-          "en": "A message says 'Your account will be blocked. Verify now: http://esewa-verify.xyz'. What should you do?",
-          "ne": "एउटा सन्देशले भन्छ 'तपाईंको खाता बन्द हुनेछ। अहिले प्रमाणित गर्नुहोस्: http://esewa-verify.xyz'। तपाईंले के गर्नुपर्छ?"
+      "quizzes": [
+        {
+          "question": {"en": "A message says 'Your account will be blocked. Verify now: http://esewa-verify.xyz'. What should you do?", "ne": "एउटा सन्देशले भन्छ 'तपाईंको खाता बन्द हुनेछ। अहिले प्रमाणित गर्नुहोस्: http://esewa-verify.xyz'। तपाईंले के गर्नुपर्छ?"},
+          "options": {"en": ["Click the link and log in quickly", "Do not click; open the official app or call the real number", "Reply with your password to confirm"], "ne": ["लिङ्कमा क्लिक गरेर छिटो लग इन गर्ने", "क्लिक नगर्ने; आधिकारिक एप खोल्ने वा साँचो नम्बरमा फोन गर्ने", "पासवर्ड पठाएर पुष्टि गर्ने"]},
+          "answer": 1,
+          "explain": {"en": "Real companies don't force you to verify through a link in an urgent message, and 'esewa-verify.xyz' is not the official eSewa website.", "ne": "साँचो कम्पनीहरूले हतारको सन्देशमा लिङ्कमार्फत प्रमाणित गर्न बाध्य पार्दैनन्, र 'esewa-verify.xyz' आधिकारिक eSewa वेबसाइट होइन।"}
         },
-        "options": {
-          "en": ["Click the link and log in quickly", "Do not click; open the official app or call the real number"],
-          "ne": ["लिङ्कमा क्लिक गरेर छिटो लग इन गर्ने", "क्लिक नगर्ने; आधिकारिक एप खोल्ने वा साँचो नम्बरमा फोन गर्ने"]
+        {
+          "question": {"en": "Which is the biggest warning sign that a message is phishing?", "ne": "कुन कुराले सन्देश फिसिङ हो भन्ने सबैभन्दा ठूलो संकेत दिन्छ?"},
+          "options": {"en": ["It says hello politely", "It creates urgency and asks for sensitive information or a link click", "It is written in Nepali"], "ne": ["यसले नम्रतापूर्वक अभिवादन गर्छ", "यसले हतार सिर्जना गर्छ र संवेदनशील जानकारी वा लिङ्क क्लिक माग्छ", "यो नेपालीमा लेखिएको छ"]},
+          "answer": 1,
+          "explain": {"en": "Urgency plus a request for sensitive data or a link click is the classic phishing pattern.", "ne": "हतार र संवेदनशील डाटा वा लिङ्क क्लिकको माग फिसिङको प्रमुख ढाँचा हो।"}
         },
-        "answer": 1,
-        "explain": {
-          "en": "Real companies don't force you to verify through a link in an urgent message. The domain 'esewa-verify.xyz' is not the official eSewa website.",
-          "ne": "साँचो कम्पनीहरूले हतारको सन्देशमा लिङ्कमार्फत प्रमाणित गर्न बाध्य पार्दैनन्। 'esewa-verify.xyz' आधिकारिक eSewa वेबसाइट होइन।"
+        {
+          "question": {"en": "The link 'https://esewa.com.np.login-check.xyz' is:", "ne": "'https://esewa.com.np.login-check.xyz' लिङ्क:"},
+          "options": {"en": ["Safe, because it starts with esewa.com.np", "Suspicious, because the real site is 'login-check.xyz'"], "ne": ["सुरक्षित, किनकि यो esewa.com.np बाट सुरु हुन्छ", "शंकास्पद, किनकि साँचो साइट 'login-check.xyz' हो"]},
+          "answer": 1,
+          "explain": {"en": "Read a web address from right to left: the real owner here is login-check.xyz, not eSewa.", "ne": "वेब ठेगाना दायाँबाट बायाँ पढ्नुहोस्: यहाँको साँचो मालिक login-check.xyz हो, eSewa होइन।"}
         }
-      }
+      ]
     },
     {
       "id": "otp",
@@ -31,21 +36,26 @@
         "en": "An OTP (one-time password) is like a key to your account. No real bank, wallet, or company will EVER call or message asking you to share it. If someone asks for your OTP, it is a scam — even if they know your name or claim to be customer care.",
         "ne": "OTP (वन-टाइम पासवर्ड) तपाईंको खाताको साँचो जस्तै हो। कुनै पनि साँचो बैंक, वालेट वा कम्पनीले तपाईंलाई OTP माग्दैन। कसैले OTP मागे भने त्यो ठगी हो — उसले तपाईंको नाम थाहा पाए वा ग्राहक सेवा भने पनि।"
       },
-      "quiz": {
-        "question": {
-          "en": "Someone calls saying they are from eSewa and need the OTP sent to your phone to 'fix your account'. What do you do?",
-          "ne": "कसैले eSewa बाट भन्दै फोन गर्छ र 'तपाईंको खाता मिलाउन' तपाईंको फोनमा आएको OTP माग्छ। तपाईं के गर्नुहुन्छ?"
+      "quizzes": [
+        {
+          "question": {"en": "Someone from 'eSewa' calls and needs the OTP sent to your phone to fix your account. You:", "ne": "'eSewa' बाट कसैले फोन गर्छ र तपाईंको खाता मिलाउन फोनमा आएको OTP माग्छ। तपाईं:"},
+          "options": {"en": ["Give the OTP since they are customer care", "Refuse — real staff never ask for OTP", "Give only the last two digits"], "ne": ["ग्राहक सेवा भएकाले OTP दिने", "अस्वीकार गर्ने — साँचो कर्मचारीले OTP माग्दैनन्", "अन्तिम दुई अंक मात्र दिने"]},
+          "answer": 1,
+          "explain": {"en": "Sharing any part of the OTP can let a scammer in. Genuine staff never need it.", "ne": "OTP को कुनै पनि भाग दिनाले ठगलाई पहुँच दिन्छ। साँचो कर्मचारीलाई यो कहिल्यै चाहिँदैन।"}
         },
-        "options": {
-          "en": ["Give the OTP since they are customer care", "Refuse and hang up — real staff never ask for OTP"],
-          "ne": ["ग्राहक सेवा भएकाले OTP दिने", "अस्वीकार गरेर फोन राख्ने — साँचो कर्मचारीले OTP माग्दैनन्"]
+        {
+          "question": {"en": "What is an OTP mainly used for?", "ne": "OTP मुख्यतया केका लागि प्रयोग हुन्छ?"},
+          "options": {"en": ["To confirm it is really you doing a transaction", "To share with customer care", "To post on social media"], "ne": ["कारोबार साँच्चै तपाईंले नै गरेको पुष्टि गर्न", "ग्राहक सेवासँग साझा गर्न", "सामाजिक सञ्जालमा राख्न"]},
+          "answer": 0,
+          "explain": {"en": "An OTP proves it is you. That is exactly why it must never be shared.", "ne": "OTP ले यो तपाईं नै हो भनी प्रमाणित गर्छ। त्यसैले यो कहिल्यै साझा गर्नु हुँदैन।"}
         },
-        "answer": 1,
-        "explain": {
-          "en": "Sharing the OTP lets the scammer log in and take your money instantly. Genuine staff never need your OTP.",
-          "ne": "OTP दिनाले ठगले तुरुन्तै लग इन गरेर पैसा लैजान सक्छ। साँचो कर्मचारीलाई तपाईंको OTP कहिल्यै चाहिँदैन।"
+        {
+          "question": {"en": "A stranger sends money to your wallet 'by mistake' and asks you to read them the OTP to reverse it. This is:", "ne": "एक अपरिचितले 'गल्तीले' तपाईंको वालेटमा पैसा पठाउँछ र फिर्ता गर्न OTP भन्न लगाउँछ। यो:"},
+          "options": {"en": ["A genuine mistake — help them", "A scam to take over your account"], "ne": ["साँचो गल्ती — मद्दत गर्ने", "तपाईंको खाता कब्जा गर्ने ठगी"]},
+          "answer": 1,
+          "explain": {"en": "This is a common trick. Reversing money never needs your OTP.", "ne": "यो सामान्य चाल हो। पैसा फिर्ता गर्न तपाईंको OTP कहिल्यै चाहिँदैन।"}
         }
-      }
+      ]
     },
     {
       "id": "lottery",
@@ -54,21 +64,26 @@
         "en": "If you 'won' a lottery you never entered, it is a scam. Scammers promise big prizes, then ask for a 'processing fee', your bank details, or an OTP to release the money. Real prizes never require you to pay first or share your OTP.",
         "ne": "तपाईंले भाग नै नलिएको लटरी 'जित्नुभयो' भने त्यो ठगी हो। ठगहरू ठूलो इनामको वाचा गर्छन्, अनि पैसा दिन 'प्रोसेसिङ शुल्क', बैंक विवरण वा OTP माग्छन्। साँचो इनामका लागि पहिले पैसा तिर्नु वा OTP दिनु पर्दैन।"
       },
-      "quiz": {
-        "question": {
-          "en": "You get: 'Congratulations! You won Rs 5 lakh. Pay Rs 2000 processing fee to claim.' This is:",
-          "ne": "तपाईंलाई आयो: 'बधाई छ! तपाईंले ५ लाख जित्नुभयो। दाबी गर्न Rs 2000 प्रोसेसिङ शुल्क तिर्नुहोस्।' यो:"
+      "quizzes": [
+        {
+          "question": {"en": "'Congratulations! You won Rs 5 lakh. Pay Rs 2000 processing fee to claim.' This is:", "ne": "'बधाई छ! तपाईंले ५ लाख जित्नुभयो। दाबी गर्न Rs 2000 प्रोसेसिङ शुल्क तिर्नुहोस्।' यो:"},
+          "options": {"en": ["A real prize — pay to claim", "A scam — real prizes never ask you to pay first", "Worth trying for Rs 2000"], "ne": ["साँचो इनाम — दाबी गर्न तिर्ने", "ठगी — साँचो इनामले पहिले तिर्न भन्दैन", "Rs 2000 मा प्रयास गर्न लायक"]},
+          "answer": 1,
+          "explain": {"en": "An upfront fee to release a prize is the classic scam sign.", "ne": "इनाम दिन अग्रिम शुल्क माग्नु ठगीको प्रमुख संकेत हो।"}
         },
-        "options": {
-          "en": ["A real prize — pay to claim it", "A scam — real prizes never ask you to pay first"],
-          "ne": ["साँचो इनाम — दाबी गर्न तिर्ने", "ठगी — साँचो इनामले पहिले तिर्न भन्दैन"]
+        {
+          "question": {"en": "You get a lottery win message for a draw you never entered. The safest assumption is:", "ne": "तपाईंले भाग नै नलिएको ड्रको लटरी जितको सन्देश आयो। सुरक्षित अनुमान:"},
+          "options": {"en": ["You got lucky", "It is a scam"], "ne": ["तपाईं भाग्यमानी हुनुभयो", "यो ठगी हो"]},
+          "answer": 1,
+          "explain": {"en": "You cannot win a lottery you never entered.", "ne": "भाग नै नलिएको लटरी जित्न सकिँदैन।"}
         },
-        "answer": 1,
-        "explain": {
-          "en": "Asking for an upfront fee to release a prize is the classic sign of a scam.",
-          "ne": "इनाम दिन अग्रिम शुल्क माग्नु ठगीको प्रमुख संकेत हो।"
+        {
+          "question": {"en": "A prize message asks for your bank account and OTP 'to send the money'. You should:", "ne": "इनामको सन्देशले 'पैसा पठाउन' बैंक खाता र OTP माग्छ। तपाईंले:"},
+          "options": {"en": ["Share them so you get paid", "Share only the account number", "Share nothing — this is how they empty your account"], "ne": ["पैसा पाउन साझा गर्ने", "खाता नम्बर मात्र दिने", "केही नदिने — यसरी नै उनीहरू खाता खाली गर्छन्"]},
+          "answer": 2,
+          "explain": {"en": "To receive money you never need to give your OTP. Giving it lets them take money instead.", "ne": "पैसा पाउन OTP दिनु पर्दैन। दिनाले उल्टै पैसा लैजान सक्छन्।"}
         }
-      }
+      ]
     },
     {
       "id": "jobloan",
@@ -77,21 +92,26 @@
         "en": "Be careful with offers of easy jobs, foreign employment, or instant loans that ask for an advance 'registration' or 'processing' fee, or that need you to install an app with access to your contacts and photos. Genuine employers and lenders do not demand money upfront or misuse your data.",
         "ne": "सजिलो जागिर, वैदेशिक रोजगारी, वा तुरुन्तै लोनको प्रस्तावसँग सतर्क रहनुहोस् — जसले अग्रिम 'दर्ता' वा 'प्रोसेसिङ' शुल्क माग्छ, वा सम्पर्क र फोटोमा पहुँच लिने एप इन्स्टल गर्न लगाउँछ। साँचो रोजगारदाता र ऋणदाताले अग्रिम पैसा माग्दैनन् वा तपाईंको डाटा दुरुपयोग गर्दैनन्।"
       },
-      "quiz": {
-        "question": {
-          "en": "A message offers a Malaysia job with 'registration fee Rs 5000, pay first'. What is the safest response?",
-          "ne": "एउटा सन्देशले 'दर्ता शुल्क Rs 5000, पहिले तिर्नुहोस्' भन्दै मलेसियाको जागिर दिन्छ। सबैभन्दा सुरक्षित प्रतिक्रिया के हो?"
+      "quizzes": [
+        {
+          "question": {"en": "A message offers a Malaysia job with 'registration fee Rs 5000, pay first'. Safest response:", "ne": "एउटा सन्देशले 'दर्ता शुल्क Rs 5000, पहिले तिर्नुहोस्' भन्दै मलेसियाको जागिर दिन्छ। सुरक्षित प्रतिक्रिया:"},
+          "options": {"en": ["Pay quickly before seats fill", "Don't pay; verify through official government channels", "Send half now, half later"], "ne": ["सिट भरिनुअघि छिटो तिर्ने", "नतिर्ने; सरकारी आधिकारिक माध्यमबाट प्रमाणित गर्ने", "आधा अहिले, आधा पछि"]},
+          "answer": 1,
+          "explain": {"en": "Upfront fees and pressure are classic foreign-employment scam signs. Verify before paying anyone.", "ne": "अग्रिम शुल्क र दबाब वैदेशिक रोजगार ठगीका संकेत हुन्। कसैलाई तिर्नुअघि प्रमाणित गर्नुहोस्।"}
         },
-        "options": {
-          "en": ["Pay quickly before the seats fill", "Don't pay; verify the company through official government channels"],
-          "ne": ["सिट भरिनुअघि छिटो तिर्ने", "नतिर्ने; कम्पनी सरकारी आधिकारिक माध्यमबाट प्रमाणित गर्ने"]
+        {
+          "question": {"en": "A loan app wants access to your contacts and photos before giving a loan. This is a sign of:", "ne": "एउटा लोन एपले ऋण दिनुअघि तपाईंको सम्पर्क र फोटोमा पहुँच माग्छ। यो केको संकेत हो:"},
+          "options": {"en": ["A helpful, modern app", "A predatory app that may blackmail you later"], "ne": ["सहयोगी, आधुनिक एप", "पछि ब्ल्याकमेल गर्न सक्ने खतरनाक एप"]},
+          "answer": 1,
+          "explain": {"en": "Loan apps that harvest contacts and photos often use them to threaten borrowers. Avoid them.", "ne": "सम्पर्क र फोटो लिने लोन एपहरूले प्रायः ती प्रयोग गरेर धम्की दिन्छन्। बच्नुहोस्।"}
         },
-        "answer": 1,
-        "explain": {
-          "en": "Upfront fees and pressure are classic foreign-employment scam signs. Verify through the Department of Foreign Employment before paying anyone.",
-          "ne": "अग्रिम शुल्क र दबाब वैदेशिक रोजगार ठगीका सामान्य संकेत हुन्। कसैलाई तिर्नुअघि वैदेशिक रोजगार विभागमार्फत प्रमाणित गर्नुहोस्।"
+        {
+          "question": {"en": "An 'easy work from home, earn Rs 3000 daily' offer asks you to pay Rs 2000 to start. It is likely:", "ne": "'घरै बसेर दिनको Rs 3000 कमाउनुहोस्' भन्ने प्रस्तावले सुरु गर्न Rs 2000 माग्छ। यो सम्भवतः:"},
+          "options": {"en": ["A great opportunity", "A task/registration scam", "A government scheme"], "ne": ["राम्रो अवसर", "टास्क/दर्ता ठगी", "सरकारी योजना"]},
+          "answer": 1,
+          "explain": {"en": "Paying to get a job, and 'earn big for easy tasks', are classic task-scam signs.", "ne": "जागिर पाउन तिर्नु र 'सजिलो कामको ठूलो कमाइ' टास्क ठगीका संकेत हुन्।"}
         }
-      }
+      ]
     }
   ]
 }
