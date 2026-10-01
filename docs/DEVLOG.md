@@ -309,3 +309,44 @@ model was not evaluated and might narrow the gap, but would lose the on-device
 advantage. Noted as future work.
 
 Script: ai/compare_transformer.py (CPU-only torch).
+
+
+## v0.5 — Home Network Risk Scan (2026-10-01)
+
+**Goal:** Turn a raw network scan into plain-language, bilingual risk advice in
+the app — extending the "Explain" and "Include" pillars from messages/links to
+the user's own network.
+
+**What was built:**
+- `netscan/network_rules.json` — JSON rulebook mapping open ports/services to
+  bilingual (EN/NE) advice: severity, why it's risky, what to do. Same
+  "rules as data" design as message_rules.json, so the logic stays auditable.
+- `netscan/netreport.py` — parses Nmap XML (-oX), maps each open port to its
+  rule, computes a per-device risk level (HIGH/MEDIUM/LOW/SAFE from the worst
+  finding), and emits a human report or `--json` for the app.
+- Backend: `POST /network/scan` (stores latest scan) and `GET /network/latest`
+  (serves it); CORS enabled so browser clients can read it.
+- App: new **My Network** tab — fetches `/network/latest`, renders each device's
+  risk and findings (port → why → action), with refresh and empty/error states.
+
+**Test setup (honest scope):** Isolated VirtualBox Host-Only lab
+(192.168.56.0/24): Kali as scanner, Metasploitable2 (HIGH) + Windows 7 as
+targets. Kali runs `nmap -4 -Pn -sV -T4 192.168.56.0/24` and pushes the parsed
+report. A full `-Pn` subnet scan surfaces every powered-on host — including the
+Windows 7 VM, which hides from ordinary scans behind its firewall — proving the
+scanner works on a mixed-risk network, not just one planted vulnerable box.
+
+**Honest limitations (viva):**
+- Scanning runs on a scanner *on* the network (Kali), not on the phone — a phone
+  app can't run Nmap (Android sandboxing / no root). Realistic deployment is the
+  v0.6 gateway; here Kali plays that role.
+- Backend stores the latest scan in memory only, so it's lost on free-tier
+  restart/idle; for a demo the scan is pushed at session start. True persistence
+  needs an external store (out of scope for this version).
+- Scan findings are English-only in the app for now (UI chrome is bilingual).
+  Fully bilingual findings is a planned enhancement.
+- Ethical scope: only user-owned networks are scanned; the lab is isolated and
+  Metasploitable2 is never bridged.
+
+**Next:** v0.6 — turn the scanner into an always-on home gateway (Suricata +
+nftables + DNS filtering) pushing alerts to the app.
