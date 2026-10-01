@@ -2,6 +2,7 @@ from typing import Literal
 from pathlib import Path
 from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from app.services.url_analyzer import analyze_url
 from app.services.risk_engine import calculate_risk
@@ -19,6 +20,13 @@ ML_REASON = {
 }
 
 app = FastAPI(title="CyberSaathi")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],      # dev: any site may call the API
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class MessageIn(BaseModel):
     message: str = Field(min_length=1, max_length=5000)
