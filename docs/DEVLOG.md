@@ -350,3 +350,55 @@ scanner works on a mixed-risk network, not just one planted vulnerable box.
 
 **Next:** v0.6 — turn the scanner into an always-on home gateway (Suricata +
 nftables + DNS filtering) pushing alerts to the app.
+
+## v0.6 — Home Security Gateway (2026-10-01)
+
+Goal: turn Kali into an always-on home gateway that routes a client's traffic,
+blocks scam/malware domains, watches for attacks, and reports threats to the
+app in plain bilingual language.
+
+Lab architecture: Windows 7 (client) -> Kali (gateway) -> internet (VirtualBox
+NAT). Host-Only LAN 192.168.56.0/24. Kali eth0 = LAN (192.168.56.110),
+eth1 = internet (10.0.3.x).
+
+Stage A — Routing: enabled net.ipv4.ip_forward + iptables MASQUERADE
+(eth0 -> eth1) and stateful FORWARD rules. Windows 7 uses Kali as its gateway.
+Verified: Win7 reaches the internet through Kali (tcpdump on eth0 shows the
+client's packets; TTL drop confirms the hop).
+
+Stage B — DNS filtering: dnsmasq serves DNS on the LAN, forwards allowed
+domains to 8.8.8.8/1.1.1.1, and answers blocklisted scam/malware domains with
+0.0.0.0 (A) and :: (AAAA). Blocklist + config in /etc/dnsmasq.d/. Queries
+logged to /var/log/dnsmasq.log. Verified: blocked domain fails to resolve,
+normal domains work.
+
+Stage C — Suricata IDS: Suricata 8 watches eth0 with the Emerging Threats Open
+ruleset plus a custom port-scan rule (threshold 20 SYN / 10s,
+classtype attempted-recon). Alerts -> eve.json. Verified: a live `nmap -sS`
+against Windows 7 fires the scan rule.
+
+Stage D — Alerts to app: netscan/alert_report.py reads eve.json, maps alert
+categories to plain bilingual advice via netscan/alert_rules.json
+("rules as data"), dedupes, and POSTs to the backend (/alerts/scan, /alerts/latest).
+App "Alerts" tab (6th tab) shows each threat with a colour-coded level, count,
+why, and action — fully bilingual (EN/NE). Informational (ET INFO) alerts are
+down-ranked to LOW; unknown categories default to MEDIUM.
+
+End-to-end demo verified: nmap port scan of Windows 7 -> Suricata detects ->
+parser translates -> backend -> app shows "Someone is probing your network" /
+"तपाईंको नेटवर्क स्क्यान हुँदैछ" (MEDIUM).
+
+Honest limitations / TODO:
+- NOT yet persistent: ip_forward, iptables, dnsmasq, Suricata must be
+  re-applied after a Kali reboot. A startup script is the next task.
+- Backend stores the latest alert set in memory (lost on free-tier restart;
+  push before a demo).
+- Kali is both gateway and attacker in the scan demo for convenience; a real
+  setup uses a separate attacker device (detection is identical).
+- Only a representative set of alert categories is mapped; unmapped ET
+  signatures fall through to the MEDIUM default.
+- Ethical scope: isolated Host-Only lab; only user-owned devices scanned;
+  Metasploitable2 never bridged.
+
+Next: persistence startup script; archive gateway configs (dnsmasq, suricata
+rules) into the repo; then v0.8 (voice).
