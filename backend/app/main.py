@@ -1,6 +1,6 @@
 from typing import Literal
 from pathlib import Path
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 from app.services.url_analyzer import analyze_url
@@ -71,6 +71,21 @@ def check_url(data: UrlIn):
 @app.post("/emergency")
 def emergency(data: EmergencyIn):
     return {"steps": build_emergency_plan(set(data.shared), data.language)}
+
+# --- v0.5: home-network scan results ---
+_latest_network_scan = None  # most recent scan report (in memory)
+
+@app.post("/network/scan")
+async def post_network_scan(request: Request):
+    """The scanner (Kali) posts its netreport --json output here."""
+    global _latest_network_scan
+    _latest_network_scan = await request.json()
+    return {"ok": True}
+
+@app.get("/network/latest")
+def get_network_latest():
+    """The app reads the most recent scan to display in 'My Network'."""
+    return {"available": _latest_network_scan is not None, "report": _latest_network_scan}    
 
 STATIC_DIR = Path(__file__).parent / "static"
 
