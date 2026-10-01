@@ -93,7 +93,20 @@ async def post_network_scan(request: Request):
 @app.get("/network/latest")
 def get_network_latest():
     """The app reads the most recent scan to display in 'My Network'."""
-    return {"available": _latest_network_scan is not None, "report": _latest_network_scan}    
+    return {"available": _latest_network_scan is not None, "report": _latest_network_scan}   
+
+
+_latest_alerts = None
+
+@app.post("/alerts/scan")
+async def post_alerts(request: Request):
+    global _latest_alerts
+    _latest_alerts = await request.json()
+    return {"ok": True}
+
+@app.get("/alerts/latest")
+def get_alerts_latest():
+    return {"available": _latest_alerts is not None, "report": _latest_alerts}
 
 STATIC_DIR = Path(__file__).parent / "static"
 
