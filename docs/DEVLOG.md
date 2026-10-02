@@ -402,3 +402,19 @@ Honest limitations / TODO:
 
 Next: persistence startup script; archive gateway configs (dnsmasq, suricata
 rules) into the repo; then v0.8 (voice).
+
+## v0.8 — Nepali Voice (2026-10-02)
+
+Goal: let low-literacy users speak a suspicious message and hear the verdict,
+in Nepali or English — the "Include" pillar made usable without reading.
+
+- Voice input: `speech_to_text` plugin → on-device STT, locale ne_NP / en_US.
+  A mic button on the Message tab transcribes speech into the analyzer.
+- Voice output: `flutter_tts` plugin → on-device TTS, ne-NP / en-US. A "Listen"
+  button reads the verdict (headline + reasons + actions) aloud.
+- On-device (no cloud) → consistent with the offline-first design.
+- Permissions: RECORD_AUDIO + Android 11 <queries> for speech/TTS services.
+
+Honest limitations: Nepali speech-to-text depends on the phone's Google
+speech language packs; Nepali text-to-speech voice availability varies by
+device (falls back gracefully). Tested on a Redmi (2201117TY).
